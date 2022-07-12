@@ -1,0 +1,431 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local InsertedObjects = Instance.new("ScreenGui")
+local Gradient = Instance.new("Frame")
+local UICorner = Instance.new("UICorner")
+local UIGradient = Instance.new("UIGradient")
+local Devider1 = Instance.new("TextLabel")
+local TextBox = Instance.new("TextBox")
+local errorititle = Instance.new("TextLabel")
+local codelabel = Instance.new("TextLabel")
+local LOGINBUTTON = Instance.new("TextButton")
+local exit = Instance.new("TextButton")
+local UICorner_2 = Instance.new("UICorner")
+local CmdX = Instance.new("TextButton")
+local Shadow = Instance.new("Frame")
+local TextLabel = Instance.new("TextLabel")
+local infyeild = Instance.new("TextButton")
+local Shadow_2 = Instance.new("Frame")
+local TextLabel_2 = Instance.new("TextLabel")
+local UTG = Instance.new("TextButton")
+local Shadow_3 = Instance.new("Frame")
+local TextLabel_3 = Instance.new("TextLabel")
+local Title = Instance.new("TextLabel")
+local enter = Instance.new("TextButton")
+
+--Properties:
+
+InsertedObjects.Name = "InsertedObjects"
+InsertedObjects.Parent = game.Workspace
+
+Gradient.Name = "Gradient"
+Gradient.Parent = InsertedObjects
+Gradient.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Gradient.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Gradient.BorderSizePixel = 0
+Gradient.Position = UDim2.new(0.208766699, 0, 0.181762561, 0)
+Gradient.Size = UDim2.new(0, 783, 0, 519)
+Gradient.Active = true
+Gradient.Draggable = true
+
+UICorner.CornerRadius = UDim.new(0.0399999991, 0)
+UICorner.Parent = Gradient
+
+UIGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(70, 70, 70)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(129, 129, 129))}
+UIGradient.Parent = Gradient
+
+Devider1.Name = "Devider1"
+Devider1.Parent = Gradient
+Devider1.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Devider1.BackgroundTransparency = 1.010
+Devider1.Position = UDim2.new(0, 0, 0.341040462, 0)
+Devider1.Size = UDim2.new(0, 783, 0, 50)
+Devider1.Font = Enum.Font.SourceSans
+Devider1.Text = "__________________________________"
+Devider1.TextColor3 = Color3.fromRGB(0, 0, 0)
+Devider1.TextScaled = true
+Devider1.TextSize = 14.000
+Devider1.TextWrapped = true
+
+TextBox.Parent = Gradient
+TextBox.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextBox.Position = UDim2.new(0.228894234, 0, 0.701863885, 0)
+TextBox.Size = UDim2.new(0, 392, 0, 61)
+TextBox.Font = Enum.Font.SourceSans
+TextBox.Text = ""
+TextBox.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextBox.TextScaled = true
+TextBox.TextSize = 14.000
+TextBox.TextWrapped = true
+
+errorititle.Name = "errorititle"
+errorititle.Parent = Gradient
+errorititle.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+errorititle.BackgroundTransparency = 1.000
+errorititle.BorderColor3 = Color3.fromRGB(0, 0, 0)
+errorititle.Position = UDim2.new(0.111551434, 0, 0.55708313, 0)
+errorititle.Size = UDim2.new(0, 576, 0, 50)
+errorititle.Font = Enum.Font.Antique
+errorititle.Text = "Use the premium code to get more!"
+errorititle.TextColor3 = Color3.fromRGB(255, 255, 255)
+errorititle.TextSize = 50.000
+
+codelabel.Name = "codelabel"
+codelabel.Parent = Gradient
+codelabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+codelabel.BackgroundTransparency = 1.000
+codelabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
+codelabel.Position = UDim2.new(0.0228027068, 0, 0.712384522, 0)
+codelabel.Size = UDim2.new(0, 142, 0, 50)
+codelabel.Font = Enum.Font.Antique
+codelabel.Text = "Code"
+codelabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+codelabel.TextSize = 50.000
+
+LOGINBUTTON.Name = "LOGINBUTTON"
+LOGINBUTTON.Parent = Gradient
+LOGINBUTTON.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+LOGINBUTTON.Position = UDim2.new(0.379276633, 0, 0.865724742, 0)
+LOGINBUTTON.Size = UDim2.new(0, 155, 0, 55)
+LOGINBUTTON.Font = Enum.Font.Antique
+LOGINBUTTON.Text = "Login"
+LOGINBUTTON.TextColor3 = Color3.fromRGB(0, 0, 0)
+LOGINBUTTON.TextSize = 50.000
+
+exit.Name = "exit"
+exit.Parent = Gradient
+exit.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+exit.Position = UDim2.new(0.948914409, 0, -0.0327553004, 0)
+exit.Size = UDim2.new(0, 59, 0, 50)
+exit.Font = Enum.Font.SourceSans
+exit.Text = "X"
+exit.TextColor3 = Color3.fromRGB(0, 0, 0)
+exit.TextScaled = true
+exit.TextSize = 14.000
+exit.TextWrapped = true
+
+UICorner_2.CornerRadius = UDim.new(0.125, 0)
+UICorner_2.Parent = exit
+
+CmdX.Name = "CmdX"
+CmdX.Parent = Gradient
+CmdX.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
+CmdX.BorderSizePixel = 0
+CmdX.Position = UDim2.new(0.021604158, 0, 0.18855463, 0)
+CmdX.Size = UDim2.new(0, 180, 0, 45)
+CmdX.ZIndex = 2
+CmdX.Font = Enum.Font.GothamMedium
+CmdX.Text = ""
+CmdX.TextColor3 = Color3.fromRGB(255, 255, 255)
+CmdX.TextScaled = true
+CmdX.TextSize = 14.000
+CmdX.TextWrapped = true
+CmdX.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/CMD-X/CMD-X/master/Source",true))()
+end)
+
+Shadow.Name = "Shadow"
+Shadow.Parent = CmdX
+Shadow.BackgroundColor3 = Color3.fromRGB(22, 22, 22)
+Shadow.BorderSizePixel = 0
+Shadow.Size = UDim2.new(1, 0, 1, 4)
+
+TextLabel.Parent = CmdX
+TextLabel.AnchorPoint = Vector2.new(0.5, 0.5)
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel.BorderSizePixel = 0
+TextLabel.Position = UDim2.new(0.499999881, 0, 0.499999881, 0)
+TextLabel.Size = UDim2.new(1, -20, 1, -20)
+TextLabel.ZIndex = 2
+TextLabel.Font = Enum.Font.GothamMedium
+TextLabel.Text = "CMD X"
+TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.TextScaled = true
+TextLabel.TextSize = 14.000
+TextLabel.TextWrapped = true
+
+infyeild.Name = "infyeild"
+infyeild.Parent = Gradient
+infyeild.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
+infyeild.BorderSizePixel = 0
+infyeild.Position = UDim2.new(0.745749712, 0, 0.18855463, 0)
+infyeild.Size = UDim2.new(0, 180, 0, 45)
+infyeild.ZIndex = 2
+infyeild.Font = Enum.Font.GothamMedium
+infyeild.Text = ""
+infyeild.TextColor3 = Color3.fromRGB(255, 255, 255)
+infyeild.TextScaled = true
+infyeild.TextSize = 14.000
+infyeild.TextWrapped = true
+infyeild.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source",true))()
+end)
+
+Shadow_2.Name = "Shadow"
+Shadow_2.Parent = infyeild
+Shadow_2.BackgroundColor3 = Color3.fromRGB(22, 22, 22)
+Shadow_2.BorderSizePixel = 0
+Shadow_2.Size = UDim2.new(1, 0, 1, 4)
+
+TextLabel_2.Parent = infyeild
+TextLabel_2.AnchorPoint = Vector2.new(0.5, 0.5)
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.BackgroundTransparency = 1.000
+TextLabel_2.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel_2.BorderSizePixel = 0
+TextLabel_2.Position = UDim2.new(0.499999583, 0, 0.499999881, 0)
+TextLabel_2.Size = UDim2.new(1, -20, 1, -20)
+TextLabel_2.ZIndex = 2
+TextLabel_2.Font = Enum.Font.GothamMedium
+TextLabel_2.Text = "InfYeild"
+TextLabel_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.TextScaled = true
+TextLabel_2.TextSize = 14.000
+TextLabel_2.TextWrapped = true
+
+UTG.Name = "UTG"
+UTG.Parent = Gradient
+UTG.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
+UTG.BorderSizePixel = 0
+UTG.Position = UDim2.new(0.385580361, 0, 0.188554674, 0)
+UTG.Size = UDim2.new(0, 180, 0, 45)
+UTG.ZIndex = 2
+UTG.Font = Enum.Font.GothamMedium
+UTG.Text = ""
+UTG.TextColor3 = Color3.fromRGB(255, 255, 255)
+UTG.TextScaled = true
+UTG.TextSize = 14.000
+UTG.TextWrapped = true
+CmdX.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/NalaScripts/FNscriptsdetail/main/FN%20UTG",true))()
+end)
+
+
+Shadow_3.Name = "Shadow"
+Shadow_3.Parent = UTG
+Shadow_3.BackgroundColor3 = Color3.fromRGB(22, 22, 22)
+Shadow_3.BorderSizePixel = 0
+Shadow_3.Size = UDim2.new(1, 0, 1, 4)
+
+TextLabel_3.Parent = UTG
+TextLabel_3.AnchorPoint = Vector2.new(0.5, 0.5)
+TextLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.BackgroundTransparency = 1.000
+TextLabel_3.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel_3.BorderSizePixel = 0
+TextLabel_3.Position = UDim2.new(0.499999344, 0, 0.5, 0)
+TextLabel_3.Size = UDim2.new(1, -20, 1, -20)
+TextLabel_3.ZIndex = 2
+TextLabel_3.Font = Enum.Font.GothamMedium
+TextLabel_3.Text = "FN UTG"
+TextLabel_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.TextScaled = true
+TextLabel_3.TextSize = 14.000
+TextLabel_3.TextWrapped = true
+
+Title.Name = "Title"
+Title.Parent = Gradient
+Title.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Title.BackgroundTransparency = 1.000
+Title.Position = UDim2.new(0.123719297, 0, -0.00189375877, 0)
+Title.Size = UDim2.new(0, 590, 0, 50)
+Title.Font = Enum.Font.SourceSans
+Title.Text = "FN SCRIPTS"
+Title.TextColor3 = Color3.fromRGB(0, 0, 0)
+Title.TextScaled = true
+Title.TextSize = 14.000
+Title.TextWrapped = true
+
+enter.Name = "enter"
+enter.Parent = InsertedObjects
+enter.AnchorPoint = Vector2.new(0.5, 0.5)
+enter.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+enter.BackgroundTransparency = 1.000
+enter.Position = UDim2.new(0.102526009, 0, 0.935740471, 0)
+enter.Size = UDim2.new(0, 200, 0, 50)
+enter.Visible = false
+enter.Font = Enum.Font.Oswald
+enter.Text = "ENTER FN SCRIPTS"
+enter.TextColor3 = Color3.fromRGB(0, 0, 0)
+enter.TextScaled = true
+enter.TextSize = 14.000
+enter.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+enter.TextStrokeTransparency = 0.000
+enter.TextWrapped = true
+
+-- Scripts:
+
+local function GQWJXVF_fake_script() -- Devider1.RainbowText 
+	local script = Instance.new('Script', Devider1)
+
+	local text = script.Parent
+	local add = 10
+	wait(1)
+	local k = 1
+	while k <= 255 do
+	text.TextColor3 = Color3.new(k/255,0/255,0/255)
+	k = k + add
+	wait()
+	end
+	while true do
+	k = 1
+	while k <= 255 do
+	text.TextColor3 = Color3.new(255/255,k/255,0/255)
+	k = k + add
+	wait()
+	end
+	k = 1
+	while k <= 255 do
+	text.TextColor3 = Color3.new(255/255 - k/255,255/255,0/255)
+	k = k + add
+	wait()
+	end
+	k = 1
+	while k <= 255 do
+	text.TextColor3 = Color3.new(0/255,255/255,k/255)
+	k = k + add
+	wait()
+	end
+	k = 1
+	while k <= 255 do
+	text.TextColor3 = Color3.new(0/255,255/255 - k/255,255/255)
+	k = k + add
+	wait()
+	end
+	k = 1
+	while k <= 255 do
+	text.TextColor3 = Color3.new(k/255,0/255,255/255)
+	k = k + add
+	wait()
+	end
+	k = 1
+	while k <= 255 do
+	text.TextColor3 = Color3.new(255/255,0/255,255/255 - k/255)
+	k = k + add
+	wait()
+	end
+	while k <= 255 do
+	text.TextColor3 = Color3.new(255/255 - k/255,0/255,0/255)
+	k = k + add
+	wait()
+	end
+	end
+end
+coroutine.wrap(GQWJXVF_fake_script)()
+local function LCPTOV_fake_script() -- LOGINBUTTON.LocalScript 
+	local script = Instance.new('LocalScript', LOGINBUTTON)
+
+	local pass = "XDD" -- Change it to yours password
+	local TxTBox = script.Parent.Parent.TextBox
+	local btn = script.Parent
+	local toogle = false
+	
+	btn.MouseButton1Up:Connect(function()
+		if TxTBox.Text == pass then
+			script.Parent.Parent.errorititle.TextColor3 = Color3.new(0.101961, 0.835294, 1)
+			script.Parent.Parent.errorititle.Text = "We havent actually implumented premium yet."
+			wait(2)
+			script.Parent.Parent.errorititle.Text = "Use the premium code to get more!"
+			script.Parent.Parent.errorititle.TextColor3 = Color3.new(1, 1, 1)
+		else
+			script.Parent.Parent.errorititle.TextColor3 = Color3.new(1, 0, 0.0156863)
+			script.Parent.Parent.errorititle.Text = "Code Incorrect :("
+			wait(2)
+			script.Parent.Parent.errorititle.Text = "Use the premium code to get more!"
+			script.Parent.Parent.errorititle.TextColor3 = Color3.new(1, 1, 1)
+		end
+		
+	end)
+	
+end
+coroutine.wrap(LCPTOV_fake_script)()
+local function EXFTEG_fake_script() -- exit.LocalScript 
+	local script = Instance.new('LocalScript', exit)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Visible = false
+		script.Parent.Parent.Parent.enter.Visible = true
+	end)
+end
+coroutine.wrap(EXFTEG_fake_script)()
+local function FJAK_fake_script() -- Title.RainbowText 
+	local script = Instance.new('Script', Title)
+
+	local text = script.Parent
+	local add = 10
+	wait(1)
+	local k = 1
+	while k <= 255 do
+	text.TextColor3 = Color3.new(k/255,0/255,0/255)
+	k = k + add
+	wait()
+	end
+	while true do
+	k = 1
+	while k <= 255 do
+	text.TextColor3 = Color3.new(255/255,k/255,0/255)
+	k = k + add
+	wait()
+	end
+	k = 1
+	while k <= 255 do
+	text.TextColor3 = Color3.new(255/255 - k/255,255/255,0/255)
+	k = k + add
+	wait()
+	end
+	k = 1
+	while k <= 255 do
+	text.TextColor3 = Color3.new(0/255,255/255,k/255)
+	k = k + add
+	wait()
+	end
+	k = 1
+	while k <= 255 do
+	text.TextColor3 = Color3.new(0/255,255/255 - k/255,255/255)
+	k = k + add
+	wait()
+	end
+	k = 1
+	while k <= 255 do
+	text.TextColor3 = Color3.new(k/255,0/255,255/255)
+	k = k + add
+	wait()
+	end
+	k = 1
+	while k <= 255 do
+	text.TextColor3 = Color3.new(255/255,0/255,255/255 - k/255)
+	k = k + add
+	wait()
+	end
+	while k <= 255 do
+	text.TextColor3 = Color3.new(255/255 - k/255,0/255,0/255)
+	k = k + add
+	wait()
+	end
+	end
+end
+coroutine.wrap(FJAK_fake_script)()
+local function SVDQ_fake_script() -- enter.LocalScript 
+	local script = Instance.new('LocalScript', enter)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Gradient.Visible = true
+		script.Parent.Visible = false
+	end)
+end
+coroutine.wrap(SVDQ_fake_script)()
