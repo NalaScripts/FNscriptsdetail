@@ -1,0 +1,3261 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local ProjectScripted = Instance.new("ScreenGui")
+local Credits = Instance.new("Frame")
+local TextLabel = Instance.new("TextLabel")
+local TextLabel_2 = Instance.new("TextLabel")
+local Lines = Instance.new("Frame")
+local Frame = Instance.new("Frame")
+local Frame_2 = Instance.new("Frame")
+local Frame_3 = Instance.new("Frame")
+local TextLabel_3 = Instance.new("TextLabel")
+local TextLabel_4 = Instance.new("TextLabel")
+local TextLabel_5 = Instance.new("TextLabel")
+local TextLabel_6 = Instance.new("TextLabel")
+local TextLabel_7 = Instance.new("TextLabel")
+local TextLabel_8 = Instance.new("TextLabel")
+local TextLabel_9 = Instance.new("TextLabel")
+local TextLabel_10 = Instance.new("TextLabel")
+local TextButton = Instance.new("TextButton")
+local TextButton_2 = Instance.new("TextButton")
+local closedhub = Instance.new("Frame")
+local TextLabel_11 = Instance.new("TextLabel")
+local TextLabel_12 = Instance.new("TextLabel")
+local open = Instance.new("TextButton")
+local open_2 = Instance.new("TextButton")
+local Changes = Instance.new("Frame")
+local TextLabel_13 = Instance.new("TextLabel")
+local TextLabel_14 = Instance.new("TextLabel")
+local Lines_2 = Instance.new("Frame")
+local Frame_4 = Instance.new("Frame")
+local Frame_5 = Instance.new("Frame")
+local Frame_6 = Instance.new("Frame")
+local OpenHub = Instance.new("TextButton")
+local TextLabel_15 = Instance.new("TextLabel")
+local TextLabel_16 = Instance.new("TextLabel")
+local TextLabel_17 = Instance.new("TextLabel")
+local open_3 = Instance.new("TextButton")
+local TextLabel_18 = Instance.new("TextLabel")
+local TextLabel_19 = Instance.new("TextLabel")
+local Frame_7 = Instance.new("Frame")
+local ScrollingFrame = Instance.new("ScrollingFrame")
+local CleanGUI = Instance.new("TextButton")
+local Volcanoguns = Instance.new("TextButton")
+local QuantomAdmin = Instance.new("TextButton")
+local UnleakedUTG = Instance.new("TextButton")
+local ow5psCustomGUIBlankScriptsDestoyMap = Instance.new("TextButton")
+local ChatBypass = Instance.new("TextButton")
+local CSGOGuns = Instance.new("TextButton")
+local FatGuy = Instance.new("TextButton")
+local GrabKnifeV4 = Instance.new("TextButton")
+local ModelInserter = Instance.new("TextButton")
+local ClownVan = Instance.new("TextButton")
+local GrabKnifeV3 = Instance.new("TextButton")
+local GrabGun = Instance.new("TextButton")
+local JoJo = Instance.new("TextButton")
+local BaseballBat = Instance.new("TextButton")
+local Zamasu = Instance.new("TextButton")
+local BlackmenGUI = Instance.new("TextButton")
+local KrystalDance = Instance.new("TextButton")
+local MrBeanAdmin = Instance.new("TextButton")
+local TrapRifle = Instance.new("TextButton")
+local RainbowKnife = Instance.new("TextButton")
+local IceCreamSword = Instance.new("TextButton")
+local GKV1 = Instance.new("TextButton")
+local USGPremium = Instance.new("TextButton")
+local Dex = Instance.new("TextButton")
+local elioblasio = Instance.new("TextButton")
+local RagDeath = Instance.new("TextButton")
+local Mantistheflyingcar = Instance.new("TextButton")
+local HallowSlayer = Instance.new("TextButton")
+local KarenTookTheKids = Instance.new("TextButton")
+local RoXploit60 = Instance.new("TextButton")
+local Exoliner = Instance.new("TextButton")
+local HD = Instance.new("TextButton")
+local HD_2 = Instance.new("TextButton")
+local anotherunleakedGUI = Instance.new("TextButton")
+local rc7 = Instance.new("TextButton")
+local CrypticAdmin = Instance.new("TextButton")
+local FlamingoBanisher = Instance.new("TextButton")
+local ProjectSonic = Instance.new("TextButton")
+local Topkek40 = Instance.new("TextButton")
+local TreeSmasher = Instance.new("TextButton")
+local JohnDoe = Instance.new("TextButton")
+local NebulaGlitcherReborn = Instance.new("TextButton")
+local NekoEdit = Instance.new("TextButton")
+local ShedletskyRage = Instance.new("TextButton")
+local _1000degreeknife = Instance.new("TextButton")
+local DubstepGun = Instance.new("TextButton")
+local colorbetter = Instance.new("TextButton")
+local SwitcherV4Edit = Instance.new("TextButton")
+local TheDarkRulerV2 = Instance.new("TextButton")
+local Flash = Instance.new("TextButton")
+local SadistGenociderV2 = Instance.new("TextButton")
+local Cop = Instance.new("TextButton")
+local DevilHub = Instance.new("TextButton")
+local imEmasGUI = Instance.new("TextButton")
+local Crossmod = Instance.new("TextButton")
+local kasperUTG = Instance.new("TextButton")
+local XXXTENTACION = Instance.new("TextButton")
+local DoggoGUI = Instance.new("TextButton")
+local Vape = Instance.new("TextButton")
+local DreamingGUI = Instance.new("TextButton")
+local CatGod = Instance.new("TextButton")
+local DoggoAdmin = Instance.new("TextButton")
+local RGUI = Instance.new("TextButton")
+local ServerAdmin = Instance.new("TextButton")
+local BowV2 = Instance.new("TextButton")
+local UpdatedKasper = Instance.new("TextButton")
+local ProjectPink = Instance.new("TextButton")
+local NekoNsfw = Instance.new("TextButton")
+local AureusHub = Instance.new("TextButton")
+local DemonKnight = Instance.new("TextButton")
+local Singing = Instance.new("TextButton")
+local UVG = Instance.new("TextButton")
+local TextLabel_20 = Instance.new("TextLabel")
+local TextLabel_21 = Instance.new("TextLabel")
+local re = Instance.new("TextButton")
+local Lines_3 = Instance.new("Frame")
+local Frame_8 = Instance.new("Frame")
+local Frame_9 = Instance.new("Frame")
+local Frame_10 = Instance.new("Frame")
+local CREDITS = Instance.new("TextButton")
+local close = Instance.new("TextButton")
+local Frame_11 = Instance.new("Frame")
+local r6 = Instance.new("TextButton")
+local Key = Instance.new("Frame")
+local TextLabel_22 = Instance.new("TextLabel")
+local TextLabel_23 = Instance.new("TextLabel")
+local Lines_4 = Instance.new("Frame")
+local Frame_12 = Instance.new("Frame")
+local Frame_13 = Instance.new("Frame")
+local Frame_14 = Instance.new("Frame")
+local TextLabel_24 = Instance.new("TextLabel")
+local Welcome = Instance.new("TextLabel")
+local BL = Instance.new("TextLabel")
+local Home = Instance.new("Frame")
+local TextLabel_25 = Instance.new("TextLabel")
+local TextLabel_26 = Instance.new("TextLabel")
+local Lines_5 = Instance.new("Frame")
+local Frame_15 = Instance.new("Frame")
+local Frame_16 = Instance.new("Frame")
+local Frame_17 = Instance.new("Frame")
+local hub = Instance.new("TextButton")
+local changelog = Instance.new("TextButton")
+local admin = Instance.new("TextButton")
+
+--Properties:
+
+ProjectScripted.Name = "ProjectScripted"
+ProjectScripted.Parent = game.Workspace
+ProjectScripted.ResetOnSpawn = false
+
+Credits.Name = "Credits"
+Credits.Parent = ProjectScripted
+Credits.BackgroundColor3 = Color3.fromRGB(63, 63, 63)
+Credits.BorderSizePixel = 0
+Credits.Position = UDim2.new(0.419778556, 0, 0.587518096, 0)
+Credits.Size = UDim2.new(0, 437, 0, 298)
+Credits.Visible = false
+
+TextLabel.Parent = Credits
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.Size = UDim2.new(0, 111, 0, 72)
+TextLabel.Font = Enum.Font.GothamMedium
+TextLabel.Text = "Project"
+TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.TextSize = 20.000
+
+TextLabel_2.Parent = Credits
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.BackgroundTransparency = 1.000
+TextLabel_2.Size = UDim2.new(0, 256, 0, 72)
+TextLabel_2.Font = Enum.Font.GothamMedium
+TextLabel_2.Text = "Scripted"
+TextLabel_2.TextColor3 = Color3.fromRGB(255, 85, 0)
+TextLabel_2.TextSize = 20.000
+
+Lines.Name = "Lines"
+Lines.Parent = Credits
+Lines.BackgroundColor3 = Color3.fromRGB(255, 85, 0)
+Lines.BorderSizePixel = 0
+Lines.Position = UDim2.new(0.0214873776, 0, 0.0651600659, 0)
+Lines.Size = UDim2.new(0, 3, 0, 259)
+
+Frame.Parent = Lines
+Frame.BackgroundColor3 = Color3.fromRGB(255, 85, 0)
+Frame.BorderSizePixel = 0
+Frame.Position = UDim2.new(138.277283, 0, 0, 0)
+Frame.Size = UDim2.new(0, 3, 0, 258)
+
+Frame_2.Parent = Lines
+Frame_2.BackgroundColor3 = Color3.fromRGB(255, 85, 0)
+Frame_2.BorderSizePixel = 0
+Frame_2.Position = UDim2.new(0, 0, 0.996138871, 0)
+Frame_2.Size = UDim2.new(0, 418, 0, 3)
+
+Frame_3.Parent = Lines
+Frame_3.BackgroundColor3 = Color3.fromRGB(255, 85, 0)
+Frame_3.BorderSizePixel = 0
+Frame_3.Position = UDim2.new(0, 0, -0.0115831494, 0)
+Frame_3.Size = UDim2.new(0, 418, 0, 3)
+
+TextLabel_3.Parent = Credits
+TextLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.BackgroundTransparency = 1.000
+TextLabel_3.Position = UDim2.new(0.0480549186, 0, 0.144295305, 0)
+TextLabel_3.Size = UDim2.new(0, 111, 0, 72)
+TextLabel_3.Font = Enum.Font.GothamMedium
+TextLabel_3.Text = "Created By"
+TextLabel_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.TextSize = 20.000
+
+TextLabel_4.Parent = Credits
+TextLabel_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.BackgroundTransparency = 1.000
+TextLabel_4.Position = UDim2.new(0.171624705, 0, 0.144295305, 0)
+TextLabel_4.Size = UDim2.new(0, 256, 0, 72)
+TextLabel_4.Font = Enum.Font.GothamMedium
+TextLabel_4.Text = "Scripted#8189"
+TextLabel_4.TextColor3 = Color3.fromRGB(255, 85, 0)
+TextLabel_4.TextSize = 20.000
+
+TextLabel_5.Parent = Credits
+TextLabel_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_5.BackgroundTransparency = 1.000
+TextLabel_5.Position = UDim2.new(0.0205949657, 0, 0.265100658, 0)
+TextLabel_5.Size = UDim2.new(0, 102, 0, 72)
+TextLabel_5.Font = Enum.Font.GothamMedium
+TextLabel_5.Text = "Thanks"
+TextLabel_5.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_5.TextSize = 20.000
+
+TextLabel_6.Parent = Credits
+TextLabel_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_6.BackgroundTransparency = 1.000
+TextLabel_6.Position = UDim2.new(0.0732265413, 0, 0.265100658, 0)
+TextLabel_6.Size = UDim2.new(0, 256, 0, 72)
+TextLabel_6.Font = Enum.Font.GothamMedium
+TextLabel_6.Text = "Barny#3496 "
+TextLabel_6.TextColor3 = Color3.fromRGB(255, 85, 0)
+TextLabel_6.TextSize = 20.000
+
+TextLabel_7.Parent = Credits
+TextLabel_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_7.BackgroundTransparency = 1.000
+TextLabel_7.Position = UDim2.new(0.0205949657, 0, 0.402684569, 0)
+TextLabel_7.Size = UDim2.new(0, 102, 0, 72)
+TextLabel_7.Font = Enum.Font.GothamMedium
+TextLabel_7.Text = "Thanks"
+TextLabel_7.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_7.TextSize = 20.000
+
+TextLabel_8.Parent = Credits
+TextLabel_8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_8.BackgroundTransparency = 1.000
+TextLabel_8.Position = UDim2.new(0.0732265413, 0, 0.402684569, 0)
+TextLabel_8.Size = UDim2.new(0, 334, 0, 72)
+TextLabel_8.Font = Enum.Font.GothamMedium
+TextLabel_8.Text = "sensemcmuffin#6969"
+TextLabel_8.TextColor3 = Color3.fromRGB(255, 85, 0)
+TextLabel_8.TextSize = 20.000
+
+TextLabel_9.Parent = Credits
+TextLabel_9.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_9.BackgroundTransparency = 1.000
+TextLabel_9.Position = UDim2.new(0.0274599548, 0, 0.530201375, 0)
+TextLabel_9.Size = UDim2.new(0, 102, 0, 72)
+TextLabel_9.Font = Enum.Font.GothamMedium
+TextLabel_9.Text = "Thanks"
+TextLabel_9.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_9.TextSize = 20.000
+
+TextLabel_10.Parent = Credits
+TextLabel_10.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_10.BackgroundTransparency = 1.000
+TextLabel_10.Position = UDim2.new(0.0823798627, 0, 0.530201316, 0)
+TextLabel_10.Size = UDim2.new(0, 252, 0, 72)
+TextLabel_10.Font = Enum.Font.GothamMedium
+TextLabel_10.Text = "Slayte#6206"
+TextLabel_10.TextColor3 = Color3.fromRGB(255, 85, 0)
+TextLabel_10.TextSize = 20.000
+
+TextButton.Parent = Credits
+TextButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton.BackgroundTransparency = 1.000
+TextButton.Position = UDim2.new(0.837528646, 0, 0.0785829648, 0)
+TextButton.Size = UDim2.new(0, 53, 0, 39)
+TextButton.Font = Enum.Font.GothamBold
+TextButton.Text = "/"
+TextButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton.TextSize = 20.000
+
+TextButton_2.Parent = Credits
+TextButton_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_2.BackgroundTransparency = 1.000
+TextButton_2.Position = UDim2.new(0.837528646, 0, 0.0785829648, 0)
+TextButton_2.Size = UDim2.new(0, 53, 0, 39)
+TextButton_2.Font = Enum.Font.GothamBold
+TextButton_2.Text = "\\"
+TextButton_2.TextColor3 = Color3.fromRGB(255, 85, 0)
+TextButton_2.TextSize = 20.000
+
+closedhub.Name = "closedhub"
+closedhub.Parent = ProjectScripted
+closedhub.BackgroundColor3 = Color3.fromRGB(63, 63, 63)
+closedhub.BorderSizePixel = 0
+closedhub.Position = UDim2.new(0.0299123805, 0, 0.519162357, 0)
+closedhub.Size = UDim2.new(0, 251, 0, 19)
+closedhub.Visible = false
+
+TextLabel_11.Parent = closedhub
+TextLabel_11.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_11.BackgroundTransparency = 1.000
+TextLabel_11.Position = UDim2.new(0.29636398, 0, 0, 0)
+TextLabel_11.Size = UDim2.new(0, 106, 0, 19)
+TextLabel_11.Font = Enum.Font.GothamMedium
+TextLabel_11.Text = "Scripted"
+TextLabel_11.TextColor3 = Color3.fromRGB(255, 85, 0)
+TextLabel_11.TextSize = 20.000
+
+TextLabel_12.Parent = closedhub
+TextLabel_12.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_12.BackgroundTransparency = 1.000
+TextLabel_12.Position = UDim2.new(0.10080646, 0, -1.42105258, 0)
+TextLabel_12.Size = UDim2.new(0, 58, 0, 72)
+TextLabel_12.Font = Enum.Font.GothamMedium
+TextLabel_12.Text = "Project"
+TextLabel_12.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_12.TextSize = 20.000
+
+open.Name = "open"
+open.Parent = closedhub
+open.BackgroundColor3 = Color3.fromRGB(84, 84, 84)
+open.BackgroundTransparency = 1.000
+open.BorderSizePixel = 0
+open.Position = UDim2.new(0.673648953, 0, 0, 0)
+open.Size = UDim2.new(0, 47, 0, 19)
+open.Font = Enum.Font.GothamBold
+open.Text = "+"
+open.TextColor3 = Color3.fromRGB(255, 255, 255)
+open.TextSize = 30.000
+
+open_2.Name = "open"
+open_2.Parent = closedhub
+open_2.BackgroundColor3 = Color3.fromRGB(84, 84, 84)
+open_2.BackgroundTransparency = 1.000
+open_2.BorderSizePixel = 0
+open_2.Position = UDim2.new(0.825785995, 0, 0, 0)
+open_2.Size = UDim2.new(0, 33, 0, 19)
+open_2.Font = Enum.Font.GothamBold
+open_2.Text = "HOME"
+open_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+open_2.TextSize = 14.000
+
+Changes.Name = "Changes"
+Changes.Parent = ProjectScripted
+Changes.BackgroundColor3 = Color3.fromRGB(63, 63, 63)
+Changes.BorderSizePixel = 0
+Changes.Position = UDim2.new(0.262575418, 0, 0.411131263, 0)
+Changes.Size = UDim2.new(0, 437, 0, 246)
+Changes.Visible = false
+
+TextLabel_13.Parent = Changes
+TextLabel_13.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_13.BackgroundTransparency = 1.000
+TextLabel_13.Size = UDim2.new(0, 111, 0, 72)
+TextLabel_13.Font = Enum.Font.GothamMedium
+TextLabel_13.Text = "Project"
+TextLabel_13.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_13.TextSize = 20.000
+
+TextLabel_14.Parent = Changes
+TextLabel_14.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_14.BackgroundTransparency = 1.000
+TextLabel_14.Size = UDim2.new(0, 256, 0, 72)
+TextLabel_14.Font = Enum.Font.GothamMedium
+TextLabel_14.Text = "Scripted"
+TextLabel_14.TextColor3 = Color3.fromRGB(255, 85, 0)
+TextLabel_14.TextSize = 20.000
+
+Lines_2.Name = "Lines"
+Lines_2.Parent = Changes
+Lines_2.BackgroundColor3 = Color3.fromRGB(255, 85, 0)
+Lines_2.BorderSizePixel = 0
+Lines_2.Position = UDim2.new(0.0214873776, 0, 0.065160118, 0)
+Lines_2.Size = UDim2.new(0, 3, 0, 214)
+
+Frame_4.Parent = Lines_2
+Frame_4.BackgroundColor3 = Color3.fromRGB(255, 85, 0)
+Frame_4.BorderSizePixel = 0
+Frame_4.Position = UDim2.new(138.277267, 0, 0, 0)
+Frame_4.Size = UDim2.new(0, 3, 0, 214)
+
+Frame_5.Parent = Lines_2
+Frame_5.BackgroundColor3 = Color3.fromRGB(255, 85, 0)
+Frame_5.BorderSizePixel = 0
+Frame_5.Position = UDim2.new(0, 0, 0.996914685, 0)
+Frame_5.Size = UDim2.new(0, 418, 0, 3)
+
+Frame_6.Parent = Lines_2
+Frame_6.BackgroundColor3 = Color3.fromRGB(255, 85, 0)
+Frame_6.BorderSizePixel = 0
+Frame_6.Position = UDim2.new(0, 0, -0.0115831494, 0)
+Frame_6.Size = UDim2.new(0, 418, 0, 3)
+
+OpenHub.Name = "OpenHub"
+OpenHub.Parent = Changes
+OpenHub.BackgroundColor3 = Color3.fromRGB(90, 90, 90)
+OpenHub.BackgroundTransparency = 1.000
+OpenHub.BorderSizePixel = 0
+OpenHub.Position = UDim2.new(0.045766592, 0, 0.0702596605, 0)
+OpenHub.Size = UDim2.new(0, 150, 0, 30)
+OpenHub.Font = Enum.Font.GothamBold
+OpenHub.Text = "Hub"
+OpenHub.TextColor3 = Color3.fromRGB(255, 85, 0)
+OpenHub.TextSize = 14.000
+OpenHub.TextTransparency = 1.000
+
+TextLabel_15.Parent = Changes
+TextLabel_15.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_15.BackgroundTransparency = 1.000
+TextLabel_15.Position = UDim2.new(0.290617883, 0, 0.134146333, 0)
+TextLabel_15.Size = UDim2.new(0, 111, 0, 72)
+TextLabel_15.Font = Enum.Font.GothamMedium
+TextLabel_15.Text = "Version"
+TextLabel_15.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_15.TextSize = 20.000
+
+TextLabel_16.Parent = Changes
+TextLabel_16.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_16.BackgroundTransparency = 1.000
+TextLabel_16.Position = UDim2.new(0.441647619, 0, 0.134146348, 0)
+TextLabel_16.Size = UDim2.new(0, 89, 0, 72)
+TextLabel_16.Font = Enum.Font.GothamMedium
+TextLabel_16.Text = "8.0"
+TextLabel_16.TextColor3 = Color3.fromRGB(255, 85, 0)
+TextLabel_16.TextSize = 20.000
+
+TextLabel_17.Parent = Changes
+TextLabel_17.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_17.BackgroundTransparency = 1.000
+TextLabel_17.Position = UDim2.new(0.022883296, 0, 0.247967482, 0)
+TextLabel_17.Size = UDim2.new(0, 173, 0, 72)
+TextLabel_17.Font = Enum.Font.GothamMedium
+TextLabel_17.Text = "Added 4 Scripts"
+TextLabel_17.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_17.TextSize = 20.000
+
+open_3.Name = "open"
+open_3.Parent = Changes
+open_3.BackgroundColor3 = Color3.fromRGB(84, 84, 84)
+open_3.BackgroundTransparency = 1.000
+open_3.BorderSizePixel = 0
+open_3.Position = UDim2.new(0.903589189, 0, -0.0121951215, 0)
+open_3.Size = UDim2.new(0, 33, 0, 19)
+open_3.Font = Enum.Font.GothamBold
+open_3.Text = "HOME"
+open_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+open_3.TextSize = 14.000
+
+TextLabel_18.Parent = Changes
+TextLabel_18.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_18.BackgroundTransparency = 1.000
+TextLabel_18.Position = UDim2.new(0.132723123, 0, 0.613821149, 0)
+TextLabel_18.Size = UDim2.new(0, 295, 0, 72)
+TextLabel_18.Font = Enum.Font.GothamMedium
+TextLabel_18.Text = "If you find any bugs please Dm"
+TextLabel_18.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_18.TextSize = 20.000
+
+TextLabel_19.Parent = Changes
+TextLabel_19.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_19.BackgroundTransparency = 1.000
+TextLabel_19.Position = UDim2.new(0.102974802, 0, 0.703252017, 0)
+TextLabel_19.Size = UDim2.new(0, 308, 0, 72)
+TextLabel_19.Font = Enum.Font.GothamMedium
+TextLabel_19.Text = "Scripted#8189"
+TextLabel_19.TextColor3 = Color3.fromRGB(255, 85, 0)
+TextLabel_19.TextSize = 20.000
+
+Frame_7.Parent = ProjectScripted
+Frame_7.BackgroundColor3 = Color3.fromRGB(63, 63, 63)
+Frame_7.BorderSizePixel = 0
+Frame_7.Position = UDim2.new(0.0261387676, 0, 0.625123143, 0)
+Frame_7.Size = UDim2.new(0, 437, 0, 298)
+Frame_7.Visible = false
+
+ScrollingFrame.Parent = Frame_7
+ScrollingFrame.Active = true
+ScrollingFrame.BackgroundColor3 = Color3.fromRGB(90, 90, 90)
+ScrollingFrame.BorderSizePixel = 0
+ScrollingFrame.Position = UDim2.new(0.0975619704, 0, 0.187973335, 0)
+ScrollingFrame.Size = UDim2.new(0, 351, 0, 207)
+ScrollingFrame.CanvasSize = UDim2.new(0, 0, 16, 0)
+
+CleanGUI.Name = "Clean GUI"
+CleanGUI.Parent = ScrollingFrame
+CleanGUI.BackgroundColor3 = Color3.fromRGB(63, 63, 63)
+CleanGUI.BorderSizePixel = 0
+CleanGUI.Position = UDim2.new(0.105413109, 0, 0.00314558391, 0)
+CleanGUI.Size = UDim2.new(0, 277, 0, 31)
+CleanGUI.Font = Enum.Font.GothamBold
+CleanGUI.Text = "Clean GUI"
+CleanGUI.TextColor3 = Color3.fromRGB(255, 85, 0)
+CleanGUI.TextSize = 14.000
+
+Volcanoguns.Name = "Volcano guns"
+Volcanoguns.Parent = ScrollingFrame
+Volcanoguns.BackgroundColor3 = Color3.fromRGB(63, 63, 63)
+Volcanoguns.BorderSizePixel = 0
+Volcanoguns.Position = UDim2.new(0.105413109, 0, 0.0134224277, 0)
+Volcanoguns.Size = UDim2.new(0, 277, 0, 31)
+Volcanoguns.Font = Enum.Font.GothamBold
+Volcanoguns.Text = "Volcano Inc Guns"
+Volcanoguns.TextColor3 = Color3.fromRGB(255, 85, 0)
+Volcanoguns.TextSize = 14.000
+
+QuantomAdmin.Name = "Quantom Admin"
+QuantomAdmin.Parent = ScrollingFrame
+QuantomAdmin.BackgroundColor3 = Color3.fromRGB(63, 63, 63)
+QuantomAdmin.BorderSizePixel = 0
+QuantomAdmin.Position = UDim2.new(0.105413094, 0, 0.0232798085, 0)
+QuantomAdmin.Size = UDim2.new(0, 277, 0, 31)
+QuantomAdmin.Font = Enum.Font.GothamBold
+QuantomAdmin.Text = "Quantom Admin"
+QuantomAdmin.TextColor3 = Color3.fromRGB(255, 85, 0)
+QuantomAdmin.TextSize = 14.000
+
+UnleakedUTG.Name = "Unleaked UTG"
+UnleakedUTG.Parent = ScrollingFrame
+UnleakedUTG.BackgroundColor3 = Color3.fromRGB(63, 63, 63)
+UnleakedUTG.BorderSizePixel = 0
+UnleakedUTG.Position = UDim2.new(0.102564096, 0, 0.0343956016, 0)
+UnleakedUTG.Size = UDim2.new(0, 277, 0, 31)
+UnleakedUTG.Font = Enum.Font.GothamBold
+UnleakedUTG.Text = "Unleaked UTG"
+UnleakedUTG.TextColor3 = Color3.fromRGB(255, 85, 0)
+UnleakedUTG.TextSize = 14.000
+
+ow5psCustomGUIBlankScriptsDestoyMap.Name = "ow5ps Custom GUI (Blank Scripts Destoy Map)"
+ow5psCustomGUIBlankScriptsDestoyMap.Parent = ScrollingFrame
+ow5psCustomGUIBlankScriptsDestoyMap.BackgroundColor3 = Color3.fromRGB(63, 63, 63)
+ow5psCustomGUIBlankScriptsDestoyMap.BorderSizePixel = 0
+ow5psCustomGUIBlankScriptsDestoyMap.Position = UDim2.new(0.102564096, 0, 0.0438335314, 0)
+ow5psCustomGUIBlankScriptsDestoyMap.Size = UDim2.new(0, 277, 0, 31)
+ow5psCustomGUIBlankScriptsDestoyMap.Font = Enum.Font.GothamBold
+ow5psCustomGUIBlankScriptsDestoyMap.Text = "o5wps Custom GUI (Blank Scripts Destoys Map)"
+ow5psCustomGUIBlankScriptsDestoyMap.TextColor3 = Color3.fromRGB(255, 85, 0)
+ow5psCustomGUIBlankScriptsDestoyMap.TextSize = 12.000
+
+ChatBypass.Name = "Chat Bypass"
+ChatBypass.Parent = ScrollingFrame
+ChatBypass.BackgroundColor3 = Color3.fromRGB(63, 63, 63)
+ChatBypass.BorderSizePixel = 0
+ChatBypass.Position = UDim2.new(0.102564089, 0, 0.0543201342, 0)
+ChatBypass.Size = UDim2.new(0, 277, 0, 31)
+ChatBypass.Font = Enum.Font.GothamBold
+ChatBypass.Text = "Chat Bypass"
+ChatBypass.TextColor3 = Color3.fromRGB(255, 85, 0)
+ChatBypass.TextSize = 14.000
+
+CSGOGuns.Name = "CSGO Guns"
+CSGOGuns.Parent = ScrollingFrame
+CSGOGuns.BackgroundColor3 = Color3.fromRGB(63, 63, 63)
+CSGOGuns.BorderSizePixel = 0
+CSGOGuns.Position = UDim2.new(0.102564089, 0, 0.0641775206, 0)
+CSGOGuns.Size = UDim2.new(0, 277, 0, 31)
+CSGOGuns.Font = Enum.Font.GothamBold
+CSGOGuns.Text = "CSGO Guns"
+CSGOGuns.TextColor3 = Color3.fromRGB(255, 85, 0)
+CSGOGuns.TextSize = 14.000
+
+FatGuy.Name = "Fat Guy"
+FatGuy.Parent = ScrollingFrame
+FatGuy.BackgroundColor3 = Color3.fromRGB(63, 63, 63)
+FatGuy.BorderSizePixel = 0
+FatGuy.Position = UDim2.new(0.102564089, 0, 0.0742446333, 0)
+FatGuy.Size = UDim2.new(0, 277, 0, 31)
+FatGuy.Font = Enum.Font.GothamBold
+FatGuy.Text = "Fat Guy"
+FatGuy.TextColor3 = Color3.fromRGB(255, 85, 0)
+FatGuy.TextSize = 14.000
+
+GrabKnifeV4.Name = "Grab Knife V4"
+GrabKnifeV4.Parent = ScrollingFrame
+GrabKnifeV4.BackgroundColor3 = Color3.fromRGB(63, 63, 63)
+GrabKnifeV4.BorderSizePixel = 0
+GrabKnifeV4.Position = UDim2.new(0.102564089, 0, 0.0847312137, 0)
+GrabKnifeV4.Size = UDim2.new(0, 277, 0, 31)
+GrabKnifeV4.Font = Enum.Font.GothamBold
+GrabKnifeV4.Text = "Grab Knife V4"
+GrabKnifeV4.TextColor3 = Color3.fromRGB(255, 85, 0)
+GrabKnifeV4.TextSize = 14.000
+
+ModelInserter.Name = "Model Inserter"
+ModelInserter.Parent = ScrollingFrame
+ModelInserter.BackgroundColor3 = Color3.fromRGB(63, 63, 63)
+ModelInserter.BorderSizePixel = 0
+ModelInserter.Position = UDim2.new(0.102564089, 0, 0.0947983265, 0)
+ModelInserter.Size = UDim2.new(0, 277, 0, 31)
+ModelInserter.Font = Enum.Font.GothamBold
+ModelInserter.Text = "Model Inserter (roblox models only)"
+ModelInserter.TextColor3 = Color3.fromRGB(255, 85, 0)
+ModelInserter.TextSize = 14.000
+
+ClownVan.Name = "Clown Van"
+ClownVan.Parent = ScrollingFrame
+ClownVan.BackgroundColor3 = Color3.fromRGB(63, 63, 63)
+ClownVan.BorderSizePixel = 0
+ClownVan.Position = UDim2.new(0.102564089, 0, 0.104445979, 0)
+ClownVan.Size = UDim2.new(0, 277, 0, 31)
+ClownVan.Font = Enum.Font.GothamBold
+ClownVan.Text = "Clown Van GUI (remake)"
+ClownVan.TextColor3 = Color3.fromRGB(255, 85, 0)
+ClownVan.TextSize = 14.000
+
+GrabKnifeV3.Name = "Grab Knife V3"
+GrabKnifeV3.Parent = ScrollingFrame
+GrabKnifeV3.BackgroundColor3 = Color3.fromRGB(63, 63, 63)
+GrabKnifeV3.BorderSizePixel = 0
+GrabKnifeV3.Position = UDim2.new(0.105413094, 0, 0.114932559, 0)
+GrabKnifeV3.Size = UDim2.new(0, 277, 0, 31)
+GrabKnifeV3.Font = Enum.Font.GothamBold
+GrabKnifeV3.Text = "Grab Knife V3"
+GrabKnifeV3.TextColor3 = Color3.fromRGB(255, 85, 0)
+GrabKnifeV3.TextSize = 14.000
+
+GrabGun.Name = "Grab Gun"
+GrabGun.Parent = ScrollingFrame
+GrabGun.BackgroundColor3 = Color3.fromRGB(63, 63, 63)
+GrabGun.BorderSizePixel = 0
+GrabGun.Position = UDim2.new(0.105413094, 0, 0.125209406, 0)
+GrabGun.Size = UDim2.new(0, 277, 0, 31)
+GrabGun.Font = Enum.Font.GothamBold
+GrabGun.Text = "Grab Gun"
+GrabGun.TextColor3 = Color3.fromRGB(255, 85, 0)
+GrabGun.TextSize = 14.000
+
+JoJo.Name = "JoJo"
+JoJo.Parent = ScrollingFrame
+JoJo.BackgroundColor3 = Color3.fromRGB(63, 63, 63)
+JoJo.BorderSizePixel = 0
+JoJo.Position = UDim2.new(0.105413094, 0, 0.135905713, 0)
+JoJo.Size = UDim2.new(0, 277, 0, 31)
+JoJo.Font = Enum.Font.GothamBold
+JoJo.Text = "JoJo"
+JoJo.TextColor3 = Color3.fromRGB(255, 85, 0)
+JoJo.TextSize = 14.000
+
+BaseballBat.Name = "Baseball Bat"
+BaseballBat.Parent = ScrollingFrame
+BaseballBat.BackgroundColor3 = Color3.fromRGB(63, 63, 63)
+BaseballBat.BorderSizePixel = 0
+BaseballBat.Position = UDim2.new(0.102564089, 0, 0.146811754, 0)
+BaseballBat.Size = UDim2.new(0, 277, 0, 31)
+BaseballBat.Font = Enum.Font.GothamBold
+BaseballBat.Text = "Baseball Bat"
+BaseballBat.TextColor3 = Color3.fromRGB(255, 85, 0)
+BaseballBat.TextSize = 14.000
+
+Zamasu.Name = "Zamasu"
+Zamasu.Parent = ScrollingFrame
+Zamasu.BackgroundColor3 = Color3.fromRGB(63, 63, 63)
+Zamasu.BorderSizePixel = 0
+Zamasu.Position = UDim2.new(0.102564089, 0, 0.158346981, 0)
+Zamasu.Size = UDim2.new(0, 277, 0, 31)
+Zamasu.Font = Enum.Font.GothamBold
+Zamasu.Text = "Zamasu"
+Zamasu.TextColor3 = Color3.fromRGB(255, 85, 0)
+Zamasu.TextSize = 14.000
+
+BlackmenGUI.Name = "Blackmen GUI"
+BlackmenGUI.Parent = ScrollingFrame
+BlackmenGUI.BackgroundColor3 = Color3.fromRGB(63, 63, 63)
+BlackmenGUI.BorderSizePixel = 0
+BlackmenGUI.Position = UDim2.new(0.105413094, 0, 0.170091942, 0)
+BlackmenGUI.Size = UDim2.new(0, 277, 0, 31)
+BlackmenGUI.Font = Enum.Font.GothamBold
+BlackmenGUI.Text = "Blackmen GUI"
+BlackmenGUI.TextColor3 = Color3.fromRGB(255, 85, 0)
+BlackmenGUI.TextSize = 14.000
+
+KrystalDance.Name = "Krystal Dance"
+KrystalDance.Parent = ScrollingFrame
+KrystalDance.BackgroundColor3 = Color3.fromRGB(63, 63, 63)
+KrystalDance.BorderSizePixel = 0
+KrystalDance.Position = UDim2.new(0.105413094, 0, 0.181836918, 0)
+KrystalDance.Size = UDim2.new(0, 277, 0, 31)
+KrystalDance.Font = Enum.Font.GothamBold
+KrystalDance.Text = "Krystal Dance"
+KrystalDance.TextColor3 = Color3.fromRGB(255, 85, 0)
+KrystalDance.TextSize = 14.000
+
+MrBeanAdmin.Name = "Mr Bean Admin"
+MrBeanAdmin.Parent = ScrollingFrame
+MrBeanAdmin.BackgroundColor3 = Color3.fromRGB(63, 63, 63)
+MrBeanAdmin.BorderSizePixel = 0
+MrBeanAdmin.Position = UDim2.new(0.105413094, 0, 0.192952693, 0)
+MrBeanAdmin.Size = UDim2.new(0, 277, 0, 31)
+MrBeanAdmin.Font = Enum.Font.GothamBold
+MrBeanAdmin.Text = "Mr Bean Admin"
+MrBeanAdmin.TextColor3 = Color3.fromRGB(255, 85, 0)
+MrBeanAdmin.TextSize = 14.000
+
+TrapRifle.Name = "Trap Rifle"
+TrapRifle.Parent = ScrollingFrame
+TrapRifle.BackgroundColor3 = Color3.fromRGB(63, 63, 63)
+TrapRifle.BorderSizePixel = 0
+TrapRifle.Position = UDim2.new(0.102564089, 0, 0.204907387, 0)
+TrapRifle.Size = UDim2.new(0, 277, 0, 31)
+TrapRifle.Font = Enum.Font.GothamBold
+TrapRifle.Text = "Trap Rifle"
+TrapRifle.TextColor3 = Color3.fromRGB(255, 85, 0)
+TrapRifle.TextSize = 14.000
+
+RainbowKnife.Name = "Rainbow Knife"
+RainbowKnife.Parent = ScrollingFrame
+RainbowKnife.BackgroundColor3 = Color3.fromRGB(63, 63, 63)
+RainbowKnife.BorderSizePixel = 0
+RainbowKnife.Position = UDim2.new(0.102564089, 0, 0.216652349, 0)
+RainbowKnife.Size = UDim2.new(0, 277, 0, 31)
+RainbowKnife.Font = Enum.Font.GothamBold
+RainbowKnife.Text = "Rainbow Knife"
+RainbowKnife.TextColor3 = Color3.fromRGB(255, 85, 0)
+RainbowKnife.TextSize = 14.000
+
+IceCreamSword.Name = "Ice Cream Sword"
+IceCreamSword.Parent = ScrollingFrame
+IceCreamSword.BackgroundColor3 = Color3.fromRGB(63, 63, 63)
+IceCreamSword.BorderSizePixel = 0
+IceCreamSword.Position = UDim2.new(0.102564089, 0, 0.228607044, 0)
+IceCreamSword.Size = UDim2.new(0, 277, 0, 31)
+IceCreamSword.Font = Enum.Font.GothamBold
+IceCreamSword.Text = "Ice Cream Sword"
+IceCreamSword.TextColor3 = Color3.fromRGB(255, 85, 0)
+IceCreamSword.TextSize = 14.000
+
+GKV1.Name = "GKV1"
+GKV1.Parent = ScrollingFrame
+GKV1.BackgroundColor3 = Color3.fromRGB(63, 63, 63)
+GKV1.BorderSizePixel = 0
+GKV1.Position = UDim2.new(0.102564089, 0, 0.240561739, 0)
+GKV1.Size = UDim2.new(0, 277, 0, 31)
+GKV1.Font = Enum.Font.GothamBold
+GKV1.Text = "Grab Knife V1"
+GKV1.TextColor3 = Color3.fromRGB(255, 85, 0)
+GKV1.TextSize = 14.000
+
+USGPremium.Name = "USG Premium"
+USGPremium.Parent = ScrollingFrame
+USGPremium.BackgroundColor3 = Color3.fromRGB(63, 63, 63)
+USGPremium.BorderSizePixel = 0
+USGPremium.Position = UDim2.new(0.102564089, 0, 0.251887232, 0)
+USGPremium.Size = UDim2.new(0, 277, 0, 31)
+USGPremium.Font = Enum.Font.GothamBold
+USGPremium.Text = "USG Premium"
+USGPremium.TextColor3 = Color3.fromRGB(255, 85, 0)
+USGPremium.TextSize = 14.000
+
+Dex.Name = "Dex"
+Dex.Parent = ScrollingFrame
+Dex.BackgroundColor3 = Color3.fromRGB(63, 63, 63)
+Dex.BorderSizePixel = 0
+Dex.Position = UDim2.new(0.102564089, 0, 0.262164086, 0)
+Dex.Size = UDim2.new(0, 277, 0, 31)
+Dex.Font = Enum.Font.GothamBold
+Dex.Text = "Dex"
+Dex.TextColor3 = Color3.fromRGB(255, 85, 0)
+Dex.TextSize = 14.000
+
+elioblasio.Name = "elio blasio"
+elioblasio.Parent = ScrollingFrame
+elioblasio.BackgroundColor3 = Color3.fromRGB(63, 63, 63)
+elioblasio.BorderSizePixel = 0
+elioblasio.Position = UDim2.new(0.105413094, 0, 0.272860408, 0)
+elioblasio.Size = UDim2.new(0, 277, 0, 31)
+elioblasio.Font = Enum.Font.GothamBold
+elioblasio.Text = "Elio Blasio"
+elioblasio.TextColor3 = Color3.fromRGB(255, 85, 0)
+elioblasio.TextSize = 14.000
+
+RagDeath.Name = "RagDeath"
+RagDeath.Parent = ScrollingFrame
+RagDeath.BackgroundColor3 = Color3.fromRGB(63, 63, 63)
+RagDeath.BorderSizePixel = 0
+RagDeath.Position = UDim2.new(0.105413094, 0, 0.28355673, 0)
+RagDeath.Size = UDim2.new(0, 277, 0, 31)
+RagDeath.Font = Enum.Font.GothamBold
+RagDeath.Text = "Ragdoll Death"
+RagDeath.TextColor3 = Color3.fromRGB(255, 85, 0)
+RagDeath.TextSize = 14.000
+
+Mantistheflyingcar.Name = "Mantis the flying car"
+Mantistheflyingcar.Parent = ScrollingFrame
+Mantistheflyingcar.BackgroundColor3 = Color3.fromRGB(63, 63, 63)
+Mantistheflyingcar.BorderSizePixel = 0
+Mantistheflyingcar.Position = UDim2.new(0.105413094, 0, 0.293204367, 0)
+Mantistheflyingcar.Size = UDim2.new(0, 277, 0, 31)
+Mantistheflyingcar.Font = Enum.Font.GothamBold
+Mantistheflyingcar.Text = "Mantis The Flying Car"
+Mantistheflyingcar.TextColor3 = Color3.fromRGB(255, 85, 0)
+Mantistheflyingcar.TextSize = 14.000
+
+HallowSlayer.Name = "Hallow Slayer"
+HallowSlayer.Parent = ScrollingFrame
+HallowSlayer.BackgroundColor3 = Color3.fromRGB(63, 63, 63)
+HallowSlayer.BorderSizePixel = 0
+HallowSlayer.Position = UDim2.new(0.105413094, 0, 0.303061724, 0)
+HallowSlayer.Size = UDim2.new(0, 277, 0, 31)
+HallowSlayer.Font = Enum.Font.GothamBold
+HallowSlayer.Text = "Hallowslayer"
+HallowSlayer.TextColor3 = Color3.fromRGB(255, 85, 0)
+HallowSlayer.TextSize = 14.000
+
+KarenTookTheKids.Name = "Karen Took The Kids"
+KarenTookTheKids.Parent = ScrollingFrame
+KarenTookTheKids.BackgroundColor3 = Color3.fromRGB(63, 63, 63)
+KarenTookTheKids.BorderSizePixel = 0
+KarenTookTheKids.Position = UDim2.new(0.102564089, 0, 0.313758045, 0)
+KarenTookTheKids.Size = UDim2.new(0, 277, 0, 31)
+KarenTookTheKids.Font = Enum.Font.GothamBold
+KarenTookTheKids.Text = "Karen Took The Kids"
+KarenTookTheKids.TextColor3 = Color3.fromRGB(255, 85, 0)
+KarenTookTheKids.TextSize = 14.000
+
+RoXploit60.Name = "Ro-Xploit 6.0"
+RoXploit60.Parent = ScrollingFrame
+RoXploit60.BackgroundColor3 = Color3.fromRGB(63, 63, 63)
+RoXploit60.BorderSizePixel = 0
+RoXploit60.Position = UDim2.new(0.102564089, 0, 0.323615432, 0)
+RoXploit60.Size = UDim2.new(0, 277, 0, 31)
+RoXploit60.Font = Enum.Font.GothamBold
+RoXploit60.Text = "Ro-Xploit 6.0"
+RoXploit60.TextColor3 = Color3.fromRGB(255, 85, 0)
+RoXploit60.TextSize = 14.000
+
+Exoliner.Name = "Exoliner"
+Exoliner.Parent = ScrollingFrame
+Exoliner.BackgroundColor3 = Color3.fromRGB(63, 63, 63)
+Exoliner.BorderSizePixel = 0
+Exoliner.Position = UDim2.new(0.102564089, 0, 0.334521472, 0)
+Exoliner.Size = UDim2.new(0, 277, 0, 31)
+Exoliner.Font = Enum.Font.GothamBold
+Exoliner.Text = "Exoliner"
+Exoliner.TextColor3 = Color3.fromRGB(255, 85, 0)
+Exoliner.TextSize = 14.000
+
+HD.Name = "HD"
+HD.Parent = ScrollingFrame
+HD.BackgroundColor3 = Color3.fromRGB(63, 63, 63)
+HD.BorderSizePixel = 0
+HD.Position = UDim2.new(0.102564089, 0, 0.345427513, 0)
+HD.Size = UDim2.new(0, 277, 0, 31)
+HD.Font = Enum.Font.GothamBold
+HD.Text = "HD admin Owner"
+HD.TextColor3 = Color3.fromRGB(255, 85, 0)
+HD.TextSize = 14.000
+
+HD_2.Name = "HD"
+HD_2.Parent = ScrollingFrame
+HD_2.BackgroundColor3 = Color3.fromRGB(63, 63, 63)
+HD_2.BorderSizePixel = 0
+HD_2.Position = UDim2.new(0.102564089, 0, 0.356333554, 0)
+HD_2.Size = UDim2.new(0, 277, 0, 31)
+HD_2.Font = Enum.Font.GothamBold
+HD_2.Text = "Insert HD Admin"
+HD_2.TextColor3 = Color3.fromRGB(255, 85, 0)
+HD_2.TextSize = 14.000
+
+anotherunleakedGUI.Name = "another unleaked GUI"
+anotherunleakedGUI.Parent = ScrollingFrame
+anotherunleakedGUI.BackgroundColor3 = Color3.fromRGB(63, 63, 63)
+anotherunleakedGUI.BorderSizePixel = 0
+anotherunleakedGUI.Position = UDim2.new(0.105413094, 0, 0.366820127, 0)
+anotherunleakedGUI.Size = UDim2.new(0, 277, 0, 31)
+anotherunleakedGUI.Font = Enum.Font.GothamBold
+anotherunleakedGUI.Text = "another unleaked GUI"
+anotherunleakedGUI.TextColor3 = Color3.fromRGB(255, 85, 0)
+anotherunleakedGUI.TextSize = 14.000
+
+rc7.Name = "rc7"
+rc7.Parent = ScrollingFrame
+rc7.BackgroundColor3 = Color3.fromRGB(63, 63, 63)
+rc7.BorderSizePixel = 0
+rc7.Position = UDim2.new(0.105413094, 0, 0.377726167, 0)
+rc7.Size = UDim2.new(0, 277, 0, 31)
+rc7.Font = Enum.Font.GothamBold
+rc7.Text = "RC7 (pass - YOUTHINKITSFUNNY?)"
+rc7.TextColor3 = Color3.fromRGB(255, 85, 0)
+rc7.TextSize = 14.000
+
+CrypticAdmin.Name = "Cryptic Admin"
+CrypticAdmin.Parent = ScrollingFrame
+CrypticAdmin.BackgroundColor3 = Color3.fromRGB(63, 63, 63)
+CrypticAdmin.BorderSizePixel = 0
+CrypticAdmin.Position = UDim2.new(0.105413094, 0, 0.388003021, 0)
+CrypticAdmin.Size = UDim2.new(0, 277, 0, 31)
+CrypticAdmin.Font = Enum.Font.GothamBold
+CrypticAdmin.Text = "Cryptic Admin"
+CrypticAdmin.TextColor3 = Color3.fromRGB(255, 85, 0)
+CrypticAdmin.TextSize = 14.000
+
+FlamingoBanisher.Name = "Flamingo Banisher"
+FlamingoBanisher.Parent = ScrollingFrame
+FlamingoBanisher.BackgroundColor3 = Color3.fromRGB(63, 63, 63)
+FlamingoBanisher.BorderSizePixel = 0
+FlamingoBanisher.Position = UDim2.new(0.102564089, 0, 0.398699343, 0)
+FlamingoBanisher.Size = UDim2.new(0, 277, 0, 31)
+FlamingoBanisher.Font = Enum.Font.GothamBold
+FlamingoBanisher.Text = "Flamingo Banisher"
+FlamingoBanisher.TextColor3 = Color3.fromRGB(255, 85, 0)
+FlamingoBanisher.TextSize = 14.000
+
+ProjectSonic.Name = "Project Sonic"
+ProjectSonic.Parent = ScrollingFrame
+ProjectSonic.BackgroundColor3 = Color3.fromRGB(63, 63, 63)
+ProjectSonic.BorderSizePixel = 0
+ProjectSonic.Position = UDim2.new(0.105413094, 0, 0.408976197, 0)
+ProjectSonic.Size = UDim2.new(0, 277, 0, 31)
+ProjectSonic.Font = Enum.Font.GothamBold
+ProjectSonic.Text = "Project SonicElijahMania"
+ProjectSonic.TextColor3 = Color3.fromRGB(255, 85, 0)
+ProjectSonic.TextSize = 14.000
+
+Topkek40.Name = "Top kek 4.0"
+Topkek40.Parent = ScrollingFrame
+Topkek40.BackgroundColor3 = Color3.fromRGB(63, 63, 63)
+Topkek40.BorderSizePixel = 0
+Topkek40.Position = UDim2.new(0.105413094, 0, 0.419253051, 0)
+Topkek40.Size = UDim2.new(0, 277, 0, 31)
+Topkek40.Font = Enum.Font.GothamBold
+Topkek40.Text = "topk3k 4.0"
+Topkek40.TextColor3 = Color3.fromRGB(255, 85, 0)
+Topkek40.TextSize = 14.000
+
+TreeSmasher.Name = "Tree Smasher"
+TreeSmasher.Parent = ScrollingFrame
+TreeSmasher.BackgroundColor3 = Color3.fromRGB(63, 63, 63)
+TreeSmasher.BorderSizePixel = 0
+TreeSmasher.Position = UDim2.new(0.102564089, 0, 0.43057856, 0)
+TreeSmasher.Size = UDim2.new(0, 277, 0, 31)
+TreeSmasher.Font = Enum.Font.GothamBold
+TreeSmasher.Text = "Tree Smasher"
+TreeSmasher.TextColor3 = Color3.fromRGB(255, 85, 0)
+TreeSmasher.TextSize = 14.000
+
+JohnDoe.Name = "John Doe"
+JohnDoe.Parent = ScrollingFrame
+JohnDoe.BackgroundColor3 = Color3.fromRGB(63, 63, 63)
+JohnDoe.BorderSizePixel = 0
+JohnDoe.Position = UDim2.new(0.105413094, 0, 0.441694319, 0)
+JohnDoe.Size = UDim2.new(0, 277, 0, 31)
+JohnDoe.Font = Enum.Font.GothamBold
+JohnDoe.Text = "John Doe"
+JohnDoe.TextColor3 = Color3.fromRGB(255, 85, 0)
+JohnDoe.TextSize = 14.000
+
+NebulaGlitcherReborn.Name = "Nebula Glitcher Reborn"
+NebulaGlitcherReborn.Parent = ScrollingFrame
+NebulaGlitcherReborn.BackgroundColor3 = Color3.fromRGB(63, 63, 63)
+NebulaGlitcherReborn.BorderSizePixel = 0
+NebulaGlitcherReborn.Position = UDim2.new(0.105413094, 0, 0.452180892, 0)
+NebulaGlitcherReborn.Size = UDim2.new(0, 277, 0, 31)
+NebulaGlitcherReborn.Font = Enum.Font.GothamBold
+NebulaGlitcherReborn.Text = "Nebula Glitcher Reborn"
+NebulaGlitcherReborn.TextColor3 = Color3.fromRGB(255, 85, 0)
+NebulaGlitcherReborn.TextSize = 14.000
+
+NekoEdit.Name = "Neko Edit"
+NekoEdit.Parent = ScrollingFrame
+NekoEdit.BackgroundColor3 = Color3.fromRGB(63, 63, 63)
+NekoEdit.BorderSizePixel = 0
+NekoEdit.Position = UDim2.new(0.105413094, 0, 0.46182853, 0)
+NekoEdit.Size = UDim2.new(0, 277, 0, 31)
+NekoEdit.Font = Enum.Font.GothamBold
+NekoEdit.Text = "Neko Edit"
+NekoEdit.TextColor3 = Color3.fromRGB(255, 85, 0)
+NekoEdit.TextSize = 14.000
+
+ShedletskyRage.Name = "Shedletsky Rage"
+ShedletskyRage.Parent = ScrollingFrame
+ShedletskyRage.BackgroundColor3 = Color3.fromRGB(63, 63, 63)
+ShedletskyRage.BorderSizePixel = 0
+ShedletskyRage.Position = UDim2.new(0.102564089, 0, 0.471685916, 0)
+ShedletskyRage.Size = UDim2.new(0, 277, 0, 31)
+ShedletskyRage.Font = Enum.Font.GothamBold
+ShedletskyRage.Text = "Shedletsky Rage"
+ShedletskyRage.TextColor3 = Color3.fromRGB(255, 85, 0)
+ShedletskyRage.TextSize = 14.000
+
+_1000degreeknife.Name = "1000 degree knife"
+_1000degreeknife.Parent = ScrollingFrame
+_1000degreeknife.BackgroundColor3 = Color3.fromRGB(63, 63, 63)
+_1000degreeknife.BorderSizePixel = 0
+_1000degreeknife.Position = UDim2.new(0.102564089, 0, 0.483430892, 0)
+_1000degreeknife.Size = UDim2.new(0, 277, 0, 31)
+_1000degreeknife.Font = Enum.Font.GothamBold
+_1000degreeknife.Text = "1000 Degree Knife"
+_1000degreeknife.TextColor3 = Color3.fromRGB(255, 85, 0)
+_1000degreeknife.TextSize = 14.000
+
+DubstepGun.Name = "Dubstep Gun"
+DubstepGun.Parent = ScrollingFrame
+DubstepGun.BackgroundColor3 = Color3.fromRGB(63, 63, 63)
+DubstepGun.BorderSizePixel = 0
+DubstepGun.Position = UDim2.new(0.105413094, 0, 0.494127214, 0)
+DubstepGun.Size = UDim2.new(0, 277, 0, 31)
+DubstepGun.Font = Enum.Font.GothamBold
+DubstepGun.Text = "Dubstep Gun"
+DubstepGun.TextColor3 = Color3.fromRGB(255, 85, 0)
+DubstepGun.TextSize = 14.000
+
+colorbetter.Name = "colorbetter"
+colorbetter.Parent = ScrollingFrame
+colorbetter.BackgroundColor3 = Color3.fromRGB(63, 63, 63)
+colorbetter.BorderSizePixel = 0
+colorbetter.Position = UDim2.new(0.102564096, 0, 0.504823506, 0)
+colorbetter.Size = UDim2.new(0, 277, 0, 31)
+colorbetter.Font = Enum.Font.GothamBold
+colorbetter.Text = "Colorbetter"
+colorbetter.TextColor3 = Color3.fromRGB(255, 85, 0)
+colorbetter.TextSize = 14.000
+
+SwitcherV4Edit.Name = "Switcher V4 Edit"
+SwitcherV4Edit.Parent = ScrollingFrame
+SwitcherV4Edit.BackgroundColor3 = Color3.fromRGB(63, 63, 63)
+SwitcherV4Edit.BorderSizePixel = 0
+SwitcherV4Edit.Position = UDim2.new(0.102564096, 0, 0.515519798, 0)
+SwitcherV4Edit.Size = UDim2.new(0, 277, 0, 31)
+SwitcherV4Edit.Font = Enum.Font.GothamBold
+SwitcherV4Edit.Text = "Switcher V4 Edit"
+SwitcherV4Edit.TextColor3 = Color3.fromRGB(255, 85, 0)
+SwitcherV4Edit.TextSize = 14.000
+
+TheDarkRulerV2.Name = "The Dark Ruler V2"
+TheDarkRulerV2.Parent = ScrollingFrame
+TheDarkRulerV2.BackgroundColor3 = Color3.fromRGB(63, 63, 63)
+TheDarkRulerV2.BorderSizePixel = 0
+TheDarkRulerV2.Position = UDim2.new(0.102564096, 0, 0.526845276, 0)
+TheDarkRulerV2.Size = UDim2.new(0, 277, 0, 31)
+TheDarkRulerV2.Font = Enum.Font.GothamBold
+TheDarkRulerV2.Text = "The Dark Ruler V2"
+TheDarkRulerV2.TextColor3 = Color3.fromRGB(255, 85, 0)
+TheDarkRulerV2.TextSize = 14.000
+
+Flash.Name = "Flash"
+Flash.Parent = ScrollingFrame
+Flash.BackgroundColor3 = Color3.fromRGB(63, 63, 63)
+Flash.BorderSizePixel = 0
+Flash.Position = UDim2.new(0.105413102, 0, 0.53712213, 0)
+Flash.Size = UDim2.new(0, 277, 0, 31)
+Flash.Font = Enum.Font.GothamBold
+Flash.Text = "Flash"
+Flash.TextColor3 = Color3.fromRGB(255, 85, 0)
+Flash.TextSize = 14.000
+
+SadistGenociderV2.Name = "Sadist Genocider V2"
+SadistGenociderV2.Parent = ScrollingFrame
+SadistGenociderV2.BackgroundColor3 = Color3.fromRGB(63, 63, 63)
+SadistGenociderV2.BorderSizePixel = 0
+SadistGenociderV2.Position = UDim2.new(0.108262107, 0, 0.547608733, 0)
+SadistGenociderV2.Size = UDim2.new(0, 277, 0, 31)
+SadistGenociderV2.Font = Enum.Font.GothamBold
+SadistGenociderV2.Text = "Sadist Genocider V2"
+SadistGenociderV2.TextColor3 = Color3.fromRGB(255, 85, 0)
+SadistGenociderV2.TextSize = 14.000
+
+Cop.Name = "Cop"
+Cop.Parent = ScrollingFrame
+Cop.BackgroundColor3 = Color3.fromRGB(63, 63, 63)
+Cop.BorderSizePixel = 0
+Cop.Position = UDim2.new(0.102564104, 0, 0.558095276, 0)
+Cop.Size = UDim2.new(0, 277, 0, 31)
+Cop.Font = Enum.Font.GothamBold
+Cop.Text = "Cop"
+Cop.TextColor3 = Color3.fromRGB(255, 85, 0)
+Cop.TextSize = 14.000
+
+DevilHub.Name = "Devil Hub"
+DevilHub.Parent = ScrollingFrame
+DevilHub.BackgroundColor3 = Color3.fromRGB(63, 63, 63)
+DevilHub.BorderSizePixel = 0
+DevilHub.Position = UDim2.new(0.102564104, 0, 0.568581879, 0)
+DevilHub.Size = UDim2.new(0, 277, 0, 31)
+DevilHub.Font = Enum.Font.GothamBold
+DevilHub.Text = "Devil Hub"
+DevilHub.TextColor3 = Color3.fromRGB(255, 85, 0)
+DevilHub.TextSize = 14.000
+
+imEmasGUI.Name = "imEma's GUI"
+imEmasGUI.Parent = ScrollingFrame
+imEmasGUI.BackgroundColor3 = Color3.fromRGB(63, 63, 63)
+imEmasGUI.BorderSizePixel = 0
+imEmasGUI.Position = UDim2.new(0.102564104, 0, 0.579068482, 0)
+imEmasGUI.Size = UDim2.new(0, 277, 0, 31)
+imEmasGUI.Font = Enum.Font.GothamBold
+imEmasGUI.Text = "imEma's GUI"
+imEmasGUI.TextColor3 = Color3.fromRGB(255, 85, 0)
+imEmasGUI.TextSize = 14.000
+
+Crossmod.Name = "Crossmod"
+Crossmod.Parent = ScrollingFrame
+Crossmod.BackgroundColor3 = Color3.fromRGB(63, 63, 63)
+Crossmod.BorderSizePixel = 0
+Crossmod.Position = UDim2.new(0.108262107, 0, 0.590184212, 0)
+Crossmod.Size = UDim2.new(0, 277, 0, 31)
+Crossmod.Font = Enum.Font.GothamBold
+Crossmod.Text = "Crossmod"
+Crossmod.TextColor3 = Color3.fromRGB(255, 85, 0)
+Crossmod.TextSize = 14.000
+
+kasperUTG.Name = "kasperUTG"
+kasperUTG.Parent = ScrollingFrame
+kasperUTG.BackgroundColor3 = Color3.fromRGB(63, 63, 63)
+kasperUTG.BorderSizePixel = 0
+kasperUTG.Position = UDim2.new(0.102564104, 0, 0.600670815, 0)
+kasperUTG.Size = UDim2.new(0, 277, 0, 31)
+kasperUTG.Font = Enum.Font.GothamBold
+kasperUTG.Text = "KasperUTG (Key KaspersRocks)"
+kasperUTG.TextColor3 = Color3.fromRGB(255, 85, 0)
+kasperUTG.TextSize = 14.000
+
+XXXTENTACION.Name = "XXXTENTACION"
+XXXTENTACION.Parent = ScrollingFrame
+XXXTENTACION.BackgroundColor3 = Color3.fromRGB(63, 63, 63)
+XXXTENTACION.BorderSizePixel = 0
+XXXTENTACION.Position = UDim2.new(0.102564104, 0, 0.610528171, 0)
+XXXTENTACION.Size = UDim2.new(0, 277, 0, 31)
+XXXTENTACION.Font = Enum.Font.GothamBold
+XXXTENTACION.Text = "XXXTENTACION"
+XXXTENTACION.TextColor3 = Color3.fromRGB(255, 85, 0)
+XXXTENTACION.TextSize = 14.000
+
+DoggoGUI.Name = "Doggo GUI"
+DoggoGUI.Parent = ScrollingFrame
+DoggoGUI.BackgroundColor3 = Color3.fromRGB(63, 63, 63)
+DoggoGUI.BorderSizePixel = 0
+DoggoGUI.Position = UDim2.new(0.102564104, 0, 0.620595276, 0)
+DoggoGUI.Size = UDim2.new(0, 277, 0, 31)
+DoggoGUI.Font = Enum.Font.GothamBold
+DoggoGUI.Text = "Doggo GUI"
+DoggoGUI.TextColor3 = Color3.fromRGB(255, 85, 0)
+DoggoGUI.TextSize = 14.000
+
+Vape.Name = "Vape"
+Vape.Parent = ScrollingFrame
+Vape.BackgroundColor3 = Color3.fromRGB(63, 63, 63)
+Vape.BorderSizePixel = 0
+Vape.Position = UDim2.new(0.102564104, 0, 0.631920755, 0)
+Vape.Size = UDim2.new(0, 277, 0, 31)
+Vape.Font = Enum.Font.GothamBold
+Vape.Text = "Vape"
+Vape.TextColor3 = Color3.fromRGB(255, 85, 0)
+Vape.TextSize = 14.000
+
+DreamingGUI.Name = "Dreaming GUI"
+DreamingGUI.Parent = ScrollingFrame
+DreamingGUI.BackgroundColor3 = Color3.fromRGB(63, 63, 63)
+DreamingGUI.BorderSizePixel = 0
+DreamingGUI.Position = UDim2.new(0.102564104, 0, 0.642617047, 0)
+DreamingGUI.Size = UDim2.new(0, 277, 0, 31)
+DreamingGUI.Font = Enum.Font.GothamBold
+DreamingGUI.Text = "Dreaming GUI"
+DreamingGUI.TextColor3 = Color3.fromRGB(255, 85, 0)
+DreamingGUI.TextSize = 14.000
+
+CatGod.Name = "Cat God"
+CatGod.Parent = ScrollingFrame
+CatGod.BackgroundColor3 = Color3.fromRGB(63, 63, 63)
+CatGod.BorderSizePixel = 0
+CatGod.Position = UDim2.new(0.102564104, 0, 0.653313339, 0)
+CatGod.Size = UDim2.new(0, 277, 0, 31)
+CatGod.Font = Enum.Font.GothamBold
+CatGod.Text = "Cat God ( /e to stop )"
+CatGod.TextColor3 = Color3.fromRGB(255, 85, 0)
+CatGod.TextSize = 14.000
+
+DoggoAdmin.Name = "Doggo Admin"
+DoggoAdmin.Parent = ScrollingFrame
+DoggoAdmin.BackgroundColor3 = Color3.fromRGB(63, 63, 63)
+DoggoAdmin.BorderSizePixel = 0
+DoggoAdmin.Position = UDim2.new(0.102564104, 0, 0.663799942, 0)
+DoggoAdmin.Size = UDim2.new(0, 277, 0, 31)
+DoggoAdmin.Font = Enum.Font.GothamBold
+DoggoAdmin.Text = "Doggo Admin"
+DoggoAdmin.TextColor3 = Color3.fromRGB(255, 85, 0)
+DoggoAdmin.TextSize = 14.000
+
+RGUI.Name = "RGUI"
+RGUI.Parent = ScrollingFrame
+RGUI.BackgroundColor3 = Color3.fromRGB(63, 63, 63)
+RGUI.BorderSizePixel = 0
+RGUI.Position = UDim2.new(0.102564104, 0, 0.674076796, 0)
+RGUI.Size = UDim2.new(0, 277, 0, 31)
+RGUI.Font = Enum.Font.GothamBold
+RGUI.Text = "Rape GUI"
+RGUI.TextColor3 = Color3.fromRGB(255, 85, 0)
+RGUI.TextSize = 14.000
+
+ServerAdmin.Name = "Server Admin"
+ServerAdmin.Parent = ScrollingFrame
+ServerAdmin.BackgroundColor3 = Color3.fromRGB(63, 63, 63)
+ServerAdmin.BorderSizePixel = 0
+ServerAdmin.Position = UDim2.new(0.102564104, 0, 0.683724463, 0)
+ServerAdmin.Size = UDim2.new(0, 277, 0, 31)
+ServerAdmin.Font = Enum.Font.GothamBold
+ServerAdmin.Text = "Server Admin"
+ServerAdmin.TextColor3 = Color3.fromRGB(255, 85, 0)
+ServerAdmin.TextSize = 14.000
+
+BowV2.Name = "Bow V2"
+BowV2.Parent = ScrollingFrame
+BowV2.BackgroundColor3 = Color3.fromRGB(63, 63, 63)
+BowV2.BorderSizePixel = 0
+BowV2.Position = UDim2.new(0.105413109, 0, 0.694211066, 0)
+BowV2.Size = UDim2.new(0, 277, 0, 31)
+BowV2.Font = Enum.Font.GothamBold
+BowV2.Text = "Bow V2"
+BowV2.TextColor3 = Color3.fromRGB(255, 85, 0)
+BowV2.TextSize = 14.000
+
+UpdatedKasper.Name = "Updated Kasper"
+UpdatedKasper.Parent = ScrollingFrame
+UpdatedKasper.BackgroundColor3 = Color3.fromRGB(63, 63, 63)
+UpdatedKasper.BorderSizePixel = 0
+UpdatedKasper.Position = UDim2.new(0.105413109, 0, 0.704068422, 0)
+UpdatedKasper.Size = UDim2.new(0, 277, 0, 31)
+UpdatedKasper.Font = Enum.Font.GothamBold
+UpdatedKasper.Text = "Updated Kasper GUI"
+UpdatedKasper.TextColor3 = Color3.fromRGB(255, 85, 0)
+UpdatedKasper.TextSize = 14.000
+
+ProjectPink.Name = "Project Pink"
+ProjectPink.Parent = ScrollingFrame
+ProjectPink.BackgroundColor3 = Color3.fromRGB(63, 63, 63)
+ProjectPink.BorderSizePixel = 0
+ProjectPink.Position = UDim2.new(0.105413109, 0, 0.713925838, 0)
+ProjectPink.Size = UDim2.new(0, 277, 0, 31)
+ProjectPink.Font = Enum.Font.GothamBold
+ProjectPink.Text = "Project Pink (Key - ADYZASDB)"
+ProjectPink.TextColor3 = Color3.fromRGB(255, 85, 0)
+ProjectPink.TextSize = 14.000
+
+NekoNsfw.Name = "Neko Nsfw"
+NekoNsfw.Parent = ScrollingFrame
+NekoNsfw.BackgroundColor3 = Color3.fromRGB(63, 63, 63)
+NekoNsfw.BorderSizePixel = 0
+NekoNsfw.Position = UDim2.new(0.102564104, 0, 0.724202693, 0)
+NekoNsfw.Size = UDim2.new(0, 277, 0, 31)
+NekoNsfw.Font = Enum.Font.GothamBold
+NekoNsfw.Text = "Neko NSFW"
+NekoNsfw.TextColor3 = Color3.fromRGB(255, 85, 0)
+NekoNsfw.TextSize = 14.000
+
+AureusHub.Name = "Aureus Hub"
+AureusHub.Parent = ScrollingFrame
+AureusHub.BackgroundColor3 = Color3.fromRGB(63, 63, 63)
+AureusHub.BorderSizePixel = 0
+AureusHub.Position = UDim2.new(0.102564104, 0, 0.733430862, 0)
+AureusHub.Size = UDim2.new(0, 277, 0, 31)
+AureusHub.Font = Enum.Font.GothamBold
+AureusHub.Text = "Aureus Hub"
+AureusHub.TextColor3 = Color3.fromRGB(255, 85, 0)
+AureusHub.TextSize = 14.000
+
+DemonKnight.Name = "Demon Knight"
+DemonKnight.Parent = ScrollingFrame
+DemonKnight.BackgroundColor3 = Color3.fromRGB(63, 63, 63)
+DemonKnight.BorderSizePixel = 0
+DemonKnight.Position = UDim2.new(0.102564104, 0, 0.743497968, 0)
+DemonKnight.Size = UDim2.new(0, 277, 0, 31)
+DemonKnight.Font = Enum.Font.GothamBold
+DemonKnight.Text = "Demon Knight"
+DemonKnight.TextColor3 = Color3.fromRGB(255, 85, 0)
+DemonKnight.TextSize = 14.000
+
+Singing.Name = "Singing"
+Singing.Parent = ScrollingFrame
+Singing.BackgroundColor3 = Color3.fromRGB(63, 63, 63)
+Singing.BorderSizePixel = 0
+Singing.Position = UDim2.new(0.102564104, 0, 0.753565073, 0)
+Singing.Size = UDim2.new(0, 277, 0, 31)
+Singing.Font = Enum.Font.GothamBold
+Singing.Text = "Singing"
+Singing.TextColor3 = Color3.fromRGB(255, 85, 0)
+Singing.TextSize = 14.000
+
+UVG.Name = "UVG"
+UVG.Parent = ScrollingFrame
+UVG.BackgroundColor3 = Color3.fromRGB(63, 63, 63)
+UVG.BorderSizePixel = 0
+UVG.Position = UDim2.new(0.102564104, 0, 0.76321274, 0)
+UVG.Size = UDim2.new(0, 277, 0, 31)
+UVG.Font = Enum.Font.GothamBold
+UVG.Text = "UVG"
+UVG.TextColor3 = Color3.fromRGB(255, 85, 0)
+UVG.TextSize = 14.000
+
+TextLabel_20.Parent = Frame_7
+TextLabel_20.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_20.BackgroundTransparency = 1.000
+TextLabel_20.Size = UDim2.new(0, 111, 0, 72)
+TextLabel_20.Font = Enum.Font.GothamMedium
+TextLabel_20.Text = "Project"
+TextLabel_20.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_20.TextSize = 20.000
+
+TextLabel_21.Parent = Frame_7
+TextLabel_21.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_21.BackgroundTransparency = 1.000
+TextLabel_21.Position = UDim2.new(0.0214873776, 0, 0, 0)
+TextLabel_21.Size = UDim2.new(0, 238, 0, 72)
+TextLabel_21.Font = Enum.Font.GothamMedium
+TextLabel_21.Text = "Scripted"
+TextLabel_21.TextColor3 = Color3.fromRGB(255, 85, 0)
+TextLabel_21.TextSize = 20.000
+
+re.Name = "re"
+re.Parent = Frame_7
+re.BackgroundColor3 = Color3.fromRGB(84, 84, 84)
+re.BorderSizePixel = 0
+re.Position = UDim2.new(0.739130437, 0, 0.0805370137, 0)
+re.Size = UDim2.new(0, 51, 0, 21)
+re.Font = Enum.Font.GothamBold
+re.Text = "RE"
+re.TextColor3 = Color3.fromRGB(255, 255, 255)
+re.TextSize = 14.000
+
+Lines_3.Name = "Lines"
+Lines_3.Parent = Frame_7
+Lines_3.BackgroundColor3 = Color3.fromRGB(255, 85, 0)
+Lines_3.BorderSizePixel = 0
+Lines_3.Position = UDim2.new(0.0214873776, 0, 0.0651600659, 0)
+Lines_3.Size = UDim2.new(0, 3, 0, 259)
+
+Frame_8.Parent = Lines_3
+Frame_8.BackgroundColor3 = Color3.fromRGB(255, 85, 0)
+Frame_8.BorderSizePixel = 0
+Frame_8.Position = UDim2.new(139.081543, 0, -0.0115831299, 0)
+Frame_8.Size = UDim2.new(0, 3, 0, 262)
+
+Frame_9.Parent = Lines_3
+Frame_9.BackgroundColor3 = Color3.fromRGB(255, 85, 0)
+Frame_9.BorderSizePixel = 0
+Frame_9.Position = UDim2.new(0, 0, 0.99613899, 0)
+Frame_9.Size = UDim2.new(0, 420, 0, 3)
+
+Frame_10.Parent = Lines_3
+Frame_10.BackgroundColor3 = Color3.fromRGB(255, 85, 0)
+Frame_10.BorderSizePixel = 0
+Frame_10.Position = UDim2.new(0, 0, -0.0115831299, 0)
+Frame_10.Size = UDim2.new(0, 420, 0, 3)
+
+CREDITS.Name = "CREDITS"
+CREDITS.Parent = Frame_7
+CREDITS.BackgroundColor3 = Color3.fromRGB(84, 84, 84)
+CREDITS.BorderSizePixel = 0
+CREDITS.Position = UDim2.new(0.58581233, 0, 0.0805369094, 0)
+CREDITS.Size = UDim2.new(0, 67, 0, 21)
+CREDITS.Font = Enum.Font.GothamBold
+CREDITS.Text = " CREDITS"
+CREDITS.TextColor3 = Color3.fromRGB(255, 255, 255)
+CREDITS.TextSize = 14.000
+
+close.Name = "close"
+close.Parent = Frame_7
+close.BackgroundColor3 = Color3.fromRGB(84, 84, 84)
+close.BackgroundTransparency = 1.000
+close.BorderSizePixel = 0
+close.Position = UDim2.new(0.923648953, 0, 0.0100671137, 0)
+close.Size = UDim2.new(0, 33, 0, 16)
+close.Font = Enum.Font.GothamBold
+close.Text = ""
+close.TextColor3 = Color3.fromRGB(255, 255, 255)
+close.TextSize = 30.000
+
+Frame_11.Parent = Frame_7
+Frame_11.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame_11.BorderSizePixel = 0
+Frame_11.Position = UDim2.new(0.923648953, 0, 0.0201342274, 0)
+Frame_11.Size = UDim2.new(0, 23, 0, 3)
+
+r6.Name = "r6"
+r6.Parent = Frame_7
+r6.BackgroundColor3 = Color3.fromRGB(84, 84, 84)
+r6.BorderSizePixel = 0
+r6.Position = UDim2.new(0.835240245, 0, 0.0805370137, 0)
+r6.Size = UDim2.new(0, 51, 0, 21)
+r6.Font = Enum.Font.GothamBold
+r6.Text = "R6"
+r6.TextColor3 = Color3.fromRGB(255, 255, 255)
+r6.TextSize = 14.000
+
+Key.Name = "Key"
+Key.Parent = ProjectScripted
+Key.BackgroundColor3 = Color3.fromRGB(63, 63, 63)
+Key.BorderSizePixel = 0
+Key.Position = UDim2.new(0.27106601, 0, 0.38490954, 0)
+Key.Size = UDim2.new(0, 435, 0, 238)
+
+TextLabel_22.Parent = Key
+TextLabel_22.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_22.BackgroundTransparency = 1.000
+TextLabel_22.Size = UDim2.new(0, 111, 0, 72)
+TextLabel_22.Font = Enum.Font.GothamMedium
+TextLabel_22.Text = "Project"
+TextLabel_22.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_22.TextSize = 20.000
+
+TextLabel_23.Parent = Key
+TextLabel_23.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_23.BackgroundTransparency = 1.000
+TextLabel_23.Size = UDim2.new(0, 256, 0, 72)
+TextLabel_23.Font = Enum.Font.GothamMedium
+TextLabel_23.Text = "Scripted"
+TextLabel_23.TextColor3 = Color3.fromRGB(255, 85, 0)
+TextLabel_23.TextSize = 20.000
+
+Lines_4.Name = "Lines"
+Lines_4.Parent = Key
+Lines_4.BackgroundColor3 = Color3.fromRGB(255, 85, 0)
+Lines_4.BorderSizePixel = 0
+Lines_4.Position = UDim2.new(0.0214873925, 0, 0.0651600286, 0)
+Lines_4.Size = UDim2.new(0, 3, 0, 197)
+
+Frame_12.Parent = Lines_4
+Frame_12.BackgroundColor3 = Color3.fromRGB(255, 85, 0)
+Frame_12.BorderSizePixel = 0
+Frame_12.Position = UDim2.new(138.277267, 0, 0, 0)
+Frame_12.Size = UDim2.new(0, 3, 0, 197)
+
+Frame_13.Parent = Lines_4
+Frame_13.BackgroundColor3 = Color3.fromRGB(255, 85, 0)
+Frame_13.BorderSizePixel = 0
+Frame_13.Position = UDim2.new(0, 0, -0.0115831494, 0)
+Frame_13.Size = UDim2.new(0, 418, 0, 3)
+
+Frame_14.Parent = Lines_4
+Frame_14.BackgroundColor3 = Color3.fromRGB(255, 85, 0)
+Frame_14.BorderSizePixel = 0
+Frame_14.Position = UDim2.new(1.01725263e-05, 0, 0.997875214, 0)
+Frame_14.Size = UDim2.new(0, 418, 0, 3)
+
+TextLabel_24.Parent = Key
+TextLabel_24.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_24.BackgroundTransparency = 1.000
+TextLabel_24.Position = UDim2.new(-0.0298850462, 0, 0.205882356, 0)
+TextLabel_24.Size = UDim2.new(0, 239, 0, 60)
+TextLabel_24.Font = Enum.Font.GothamMedium
+TextLabel_24.Text = "Checking Group"
+TextLabel_24.TextColor3 = Color3.fromRGB(255, 85, 0)
+TextLabel_24.TextSize = 20.000
+
+Welcome.Name = "Welcome"
+Welcome.Parent = Key
+Welcome.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Welcome.BackgroundTransparency = 10.000
+Welcome.Position = UDim2.new(0.0663519502, 0, 0.336134464, 0)
+Welcome.Size = UDim2.new(0, 183, 0, 40)
+Welcome.Visible = false
+Welcome.Font = Enum.Font.GothamBold
+Welcome.Text = "Whitelist Success,"
+Welcome.TextColor3 = Color3.fromRGB(255, 255, 255)
+Welcome.TextScaled = true
+Welcome.TextSize = 14.000
+Welcome.TextWrapped = true
+Welcome.TextXAlignment = Enum.TextXAlignment.Left
+
+BL.Name = "BL"
+BL.Parent = Key
+BL.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+BL.BackgroundTransparency = 1.000
+BL.Position = UDim2.new(0.0612635836, 0, 0.411764711, 0)
+BL.Size = UDim2.new(0, 286, 0, 35)
+BL.Visible = false
+BL.Font = Enum.Font.GothamMedium
+BL.Text = "Scripted didnt whitelist you loser"
+BL.TextColor3 = Color3.fromRGB(255, 255, 255)
+BL.TextScaled = true
+BL.TextSize = 1.000
+BL.TextWrapped = true
+
+Home.Name = "Home"
+Home.Parent = ProjectScripted
+Home.BackgroundColor3 = Color3.fromRGB(63, 63, 63)
+Home.BorderSizePixel = 0
+Home.Position = UDim2.new(0.294650912, 0, 0.381333858, 0)
+Home.Size = UDim2.new(0, 435, 0, 272)
+Home.Visible = false
+
+TextLabel_25.Parent = Home
+TextLabel_25.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_25.BackgroundTransparency = 1.000
+TextLabel_25.Size = UDim2.new(0, 111, 0, 72)
+TextLabel_25.Font = Enum.Font.GothamMedium
+TextLabel_25.Text = "Project"
+TextLabel_25.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_25.TextSize = 20.000
+
+TextLabel_26.Parent = Home
+TextLabel_26.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_26.BackgroundTransparency = 1.000
+TextLabel_26.Size = UDim2.new(0, 256, 0, 72)
+TextLabel_26.Font = Enum.Font.GothamMedium
+TextLabel_26.Text = "Scripted"
+TextLabel_26.TextColor3 = Color3.fromRGB(255, 85, 0)
+TextLabel_26.TextSize = 20.000
+
+Lines_5.Name = "Lines"
+Lines_5.Parent = Home
+Lines_5.BackgroundColor3 = Color3.fromRGB(255, 85, 0)
+Lines_5.BorderSizePixel = 0
+Lines_5.Position = UDim2.new(0.0214873925, 0, 0.0651600808, 0)
+Lines_5.Size = UDim2.new(0, 3, 0, 226)
+
+Frame_15.Parent = Lines_5
+Frame_15.BackgroundColor3 = Color3.fromRGB(255, 85, 0)
+Frame_15.BorderSizePixel = 0
+Frame_15.Position = UDim2.new(138.277267, 0, 0, 0)
+Frame_15.Size = UDim2.new(0, 3, 0, 226)
+
+Frame_16.Parent = Lines_5
+Frame_16.BackgroundColor3 = Color3.fromRGB(255, 85, 0)
+Frame_16.BorderSizePixel = 0
+Frame_16.Position = UDim2.new(0, 0, -0.0115831494, 0)
+Frame_16.Size = UDim2.new(0, 418, 0, 3)
+
+Frame_17.Parent = Lines_5
+Frame_17.BackgroundColor3 = Color3.fromRGB(255, 85, 0)
+Frame_17.BorderSizePixel = 0
+Frame_17.Position = UDim2.new(1.02221966e-05, 0, 0.999851704, 0)
+Frame_17.Size = UDim2.new(0, 418, 0, 3)
+
+hub.Name = "hub"
+hub.Parent = Home
+hub.BackgroundColor3 = Color3.fromRGB(90, 90, 90)
+hub.BorderSizePixel = 0
+hub.Position = UDim2.new(0.164836079, 0, 0.218227386, 0)
+hub.Size = UDim2.new(0, 277, 0, 30)
+hub.Font = Enum.Font.GothamBold
+hub.Text = "Hub"
+hub.TextColor3 = Color3.fromRGB(255, 85, 0)
+hub.TextSize = 20.000
+
+changelog.Name = "changelog"
+changelog.Parent = Home
+changelog.BackgroundColor3 = Color3.fromRGB(90, 90, 90)
+changelog.BorderSizePixel = 0
+changelog.Position = UDim2.new(0.162537232, 0, 0.694148481, 0)
+changelog.Size = UDim2.new(0, 277, 0, 30)
+changelog.Font = Enum.Font.GothamBold
+changelog.Text = "Changelog"
+changelog.TextColor3 = Color3.fromRGB(255, 85, 0)
+changelog.TextSize = 20.000
+
+admin.Name = "admin"
+admin.Parent = Home
+admin.BackgroundColor3 = Color3.fromRGB(90, 90, 90)
+admin.BorderSizePixel = 0
+admin.Position = UDim2.new(0.162537217, 0, 0.444067657, 0)
+admin.Size = UDim2.new(0, 277, 0, 30)
+admin.Font = Enum.Font.GothamBold
+admin.Text = "Dev Admin"
+admin.TextColor3 = Color3.fromRGB(255, 85, 0)
+admin.TextSize = 20.000
+
+-- Scripts:
+
+local function ZGYJQF_fake_script() -- Credits.Dragify 
+	local script = Instance.new('LocalScript', Credits)
+
+	function dragify(Frame)
+	dragToggle = nil
+	dragSpeed = .25 -- You can edit this.
+	dragInput = nil
+	dragStart = nil
+	dragPos = nil
+	
+	function updateInput(input)
+	Delta = input.Position - dragStart
+	Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + Delta.X, startPos.Y.Scale, startPos.Y.Offset + Delta.Y)
+	game:GetService("TweenService"):Create(Frame, TweenInfo.new(.25), {Position = Position}):Play()
+	end
+	
+	Frame.InputBegan:Connect(function(input)
+	if (input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch) then
+	dragToggle = true
+	dragStart = input.Position
+	startPos = Frame.Position
+	input.Changed:Connect(function()
+	if (input.UserInputState == Enum.UserInputState.End) then
+	dragToggle = false
+	end
+	end)
+	end
+	end)
+	
+	Frame.InputChanged:Connect(function(input)
+	if (input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch) then
+	dragInput = input
+	end
+	end)
+	
+	game:GetService("UserInputService").InputChanged:Connect(function(input)
+	if (input == dragInput and dragToggle) then
+	updateInput(input)
+	end
+	end)
+	end
+	 dragify(script.Parent) 
+end
+coroutine.wrap(ZGYJQF_fake_script)()
+local function SPWPP_fake_script() -- TextButton.LocalScript 
+	local script = Instance.new('LocalScript', TextButton)
+
+	script.Parent.MouseButton1Click:Connect(function() 
+	script.Parent.Parent.Visible = false
+	end)
+	
+end
+coroutine.wrap(SPWPP_fake_script)()
+local function RFGRP_fake_script() -- TextButton_2.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_2)
+
+	script.Parent.MouseButton1Click:Connect(function() 
+	script.Parent.Parent.Visible = false
+	end)
+	
+end
+coroutine.wrap(RFGRP_fake_script)()
+local function QIRSUY_fake_script() -- open.LocalScript 
+	local script = Instance.new('LocalScript', open)
+
+	script.Parent.MouseButton1Click:Connect(function() 
+	script.Parent.Parent.Parent.Frame.Visible = true
+	end)
+	
+end
+coroutine.wrap(QIRSUY_fake_script)()
+local function GQDQWAK_fake_script() -- open.LocalScript 
+	local script = Instance.new('LocalScript', open)
+
+	script.Parent.MouseButton1Click:Connect(function() 
+	script.Parent.Parent.Visible = false
+	end)
+	
+end
+coroutine.wrap(GQDQWAK_fake_script)()
+local function HSNJ_fake_script() -- closedhub.Dragify 
+	local script = Instance.new('LocalScript', closedhub)
+
+	function dragify(Frame)
+	dragToggle = nil
+	dragSpeed = .25 -- You can edit this.
+	dragInput = nil
+	dragStart = nil
+	dragPos = nil
+	
+	function updateInput(input)
+	Delta = input.Position - dragStart
+	Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + Delta.X, startPos.Y.Scale, startPos.Y.Offset + Delta.Y)
+	game:GetService("TweenService"):Create(Frame, TweenInfo.new(.25), {Position = Position}):Play()
+	end
+	
+	Frame.InputBegan:Connect(function(input)
+	if (input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch) then
+	dragToggle = true
+	dragStart = input.Position
+	startPos = Frame.Position
+	input.Changed:Connect(function()
+	if (input.UserInputState == Enum.UserInputState.End) then
+	dragToggle = false
+	end
+	end)
+	end
+	end)
+	
+	Frame.InputChanged:Connect(function(input)
+	if (input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch) then
+	dragInput = input
+	end
+	end)
+	
+	game:GetService("UserInputService").InputChanged:Connect(function(input)
+	if (input == dragInput and dragToggle) then
+	updateInput(input)
+	end
+	end)
+	end
+	 dragify(script.Parent) 
+end
+coroutine.wrap(HSNJ_fake_script)()
+local function HPANQI_fake_script() -- open_2.LocalScript 
+	local script = Instance.new('LocalScript', open_2)
+
+	script.Parent.MouseButton1Click:Connect(function() 
+	script.Parent.Parent.Parent.Home.Visible = true
+	end)
+	
+end
+coroutine.wrap(HPANQI_fake_script)()
+local function MPKDDR_fake_script() -- open_2.LocalScript 
+	local script = Instance.new('LocalScript', open_2)
+
+	script.Parent.MouseButton1Click:Connect(function() 
+	script.Parent.Parent.Visible = false
+	end)
+	
+end
+coroutine.wrap(MPKDDR_fake_script)()
+local function BDMSXML_fake_script() -- Changes.Dragify 
+	local script = Instance.new('LocalScript', Changes)
+
+	function dragify(Frame)
+	dragToggle = nil
+	dragSpeed = .25 -- You can edit this.
+	dragInput = nil
+	dragStart = nil
+	dragPos = nil
+	
+	function updateInput(input)
+	Delta = input.Position - dragStart
+	Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + Delta.X, startPos.Y.Scale, startPos.Y.Offset + Delta.Y)
+	game:GetService("TweenService"):Create(Frame, TweenInfo.new(.25), {Position = Position}):Play()
+	end
+	
+	Frame.InputBegan:Connect(function(input)
+	if (input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch) then
+	dragToggle = true
+	dragStart = input.Position
+	startPos = Frame.Position
+	input.Changed:Connect(function()
+	if (input.UserInputState == Enum.UserInputState.End) then
+	dragToggle = false
+	end
+	end)
+	end
+	end)
+	
+	Frame.InputChanged:Connect(function(input)
+	if (input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch) then
+	dragInput = input
+	end
+	end)
+	
+	game:GetService("UserInputService").InputChanged:Connect(function(input)
+	if (input == dragInput and dragToggle) then
+	updateInput(input)
+	end
+	end)
+	end
+	 dragify(script.Parent) 
+end
+coroutine.wrap(BDMSXML_fake_script)()
+local function IZIO_fake_script() -- open_3.LocalScript 
+	local script = Instance.new('LocalScript', open_3)
+
+	script.Parent.MouseButton1Click:Connect(function() 
+	script.Parent.Parent.Parent.Home.Visible = true
+	end)
+	
+end
+coroutine.wrap(IZIO_fake_script)()
+local function QCHRXID_fake_script() -- open_3.LocalScript 
+	local script = Instance.new('LocalScript', open_3)
+
+	script.Parent.MouseButton1Click:Connect(function() 
+	script.Parent.Parent.Visible = false
+	end)
+	
+end
+coroutine.wrap(QCHRXID_fake_script)()
+local function YNXUNP_fake_script() -- CleanGUI.Script 
+	local script = Instance.new('Script', CleanGUI)
+
+	script.Parent.RemoteEvent.OnServerEvent:Connect(function(plr)
+	 require(4858153018).gui(plr.Name, 'clean')
+	end)
+end
+coroutine.wrap(YNXUNP_fake_script)()
+local function LAUWNV_fake_script() -- CleanGUI.LocalScript 
+	local script = Instance.new('LocalScript', CleanGUI)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.RemoteEvent:FireServer()
+	end)
+end
+coroutine.wrap(LAUWNV_fake_script)()
+local function BMCRF_fake_script() -- Volcanoguns.Script 
+	local script = Instance.new('Script', Volcanoguns)
+
+	 script.Parent.RemoteEvent.OnServerEvent:Connect(function(plr)
+	    require(4062972943).Hunt(plr.Name)
+	    wait(0.5)
+	    require(4063023113).Bang(plr.Name)
+	    wait(0.5)
+	    require(4084843279).Machine(plr.Name)
+	    wait(0.5)
+	    require(4084862443).Rocket(plr.Name)
+	    wait(0.5)
+	    require(4084872045).Homing(plr.Name)
+	    wait(0.5)
+	    require(4531332035).Stop(plr.Name)
+	end) 
+end
+coroutine.wrap(BMCRF_fake_script)()
+local function RIEJ_fake_script() -- Volcanoguns.LocalScript 
+	local script = Instance.new('LocalScript', Volcanoguns)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.RemoteEvent:FireServer()
+	end)
+end
+coroutine.wrap(RIEJ_fake_script)()
+local function RWYVLX_fake_script() -- QuantomAdmin.Script 
+	local script = Instance.new('Script', QuantomAdmin)
+
+	script.Parent.RemoteEvent.OnServerEvent:Connect(function(plr)
+	require(3901019090):Fire("dusk",plr.Name)
+	end)
+end
+coroutine.wrap(RWYVLX_fake_script)()
+local function TAKA_fake_script() -- QuantomAdmin.LocalScript 
+	local script = Instance.new('LocalScript', QuantomAdmin)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.RemoteEvent:FireServer()
+	end)
+end
+coroutine.wrap(TAKA_fake_script)()
+local function GLXZB_fake_script() -- UnleakedUTG.Script 
+	local script = Instance.new('Script', UnleakedUTG)
+
+	script.Parent.RemoteEvent.OnServerEvent:Connect(function(plr)
+	require(5001017575).unleaked(plr.Name)
+	end)
+end
+coroutine.wrap(GLXZB_fake_script)()
+local function OXJFL_fake_script() -- UnleakedUTG.LocalScript 
+	local script = Instance.new('LocalScript', UnleakedUTG)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.RemoteEvent:FireServer()
+	end)
+end
+coroutine.wrap(OXJFL_fake_script)()
+local function MNDPLPC_fake_script() -- ow5psCustomGUIBlankScriptsDestoyMap.Script 
+	local script = Instance.new('Script', ow5psCustomGUIBlankScriptsDestoyMap)
+
+	script.Parent.RemoteEvent.OnServerEvent:Connect(function(plr)
+	require(4497715977).Lmao(plr.Name)
+	end)
+end
+coroutine.wrap(MNDPLPC_fake_script)()
+local function WCQIA_fake_script() -- ow5psCustomGUIBlankScriptsDestoyMap.LocalScript 
+	local script = Instance.new('LocalScript', ow5psCustomGUIBlankScriptsDestoyMap)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.RemoteEvent:FireServer()
+	end)
+end
+coroutine.wrap(WCQIA_fake_script)()
+local function VOIYMBO_fake_script() -- ChatBypass.Script 
+	local script = Instance.new('Script', ChatBypass)
+
+	script.Parent.RemoteEvent.OnServerEvent:Connect(function(plr)
+	local chatservice = require(game.ServerScriptService.ChatServiceRunner.ChatService);chatservice.InternalApplyRobloxFilterNewAPI=function(self,sp,mes,textfilcon) return true,false,mes end;chatservice.InternalApplyRobloxFilter=function(self,sp,mes,toname) return mes end
+	
+	end)
+end
+coroutine.wrap(VOIYMBO_fake_script)()
+local function XBDFQ_fake_script() -- ChatBypass.LocalScript 
+	local script = Instance.new('LocalScript', ChatBypass)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.RemoteEvent:FireServer()
+	end)
+end
+coroutine.wrap(XBDFQ_fake_script)()
+local function JXEZSD_fake_script() -- CSGOGuns.Script 
+	local script = Instance.new('Script', CSGOGuns)
+
+	script.Parent.RemoteEvent.OnServerEvent:Connect(function(plr)
+	require(4207271766).load(plr.Name)
+	end)
+end
+coroutine.wrap(JXEZSD_fake_script)()
+local function LBIJVO_fake_script() -- CSGOGuns.LocalScript 
+	local script = Instance.new('LocalScript', CSGOGuns)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.RemoteEvent:FireServer()
+	end)
+end
+coroutine.wrap(LBIJVO_fake_script)()
+local function EGPG_fake_script() -- FatGuy.Script 
+	local script = Instance.new('Script', FatGuy)
+
+	script.Parent.RemoteEvent.OnServerEvent:Connect(function(plr)
+	require(3151323443).fat(plr.Name)
+	end)
+end
+coroutine.wrap(EGPG_fake_script)()
+local function CZJDWNH_fake_script() -- FatGuy.LocalScript 
+	local script = Instance.new('LocalScript', FatGuy)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.RemoteEvent:FireServer()
+	end)
+end
+coroutine.wrap(CZJDWNH_fake_script)()
+local function BXKZSQN_fake_script() -- GrabKnifeV4.Script 
+	local script = Instance.new('Script', GrabKnifeV4)
+
+	script.Parent.RemoteEvent.OnServerEvent:Connect(function(plr)
+	require(5023577572):Fire(plr.Name)
+	end)
+end
+coroutine.wrap(BXKZSQN_fake_script)()
+local function UNOMRNM_fake_script() -- GrabKnifeV4.LocalScript 
+	local script = Instance.new('LocalScript', GrabKnifeV4)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.RemoteEvent:FireServer()
+	end)
+end
+coroutine.wrap(UNOMRNM_fake_script)()
+local function BMGFM_fake_script() -- ModelInserter.Script 
+	local script = Instance.new('Script', ModelInserter)
+
+	script.Parent.RemoteEvent.OnServerEvent:Connect(function(plr)
+	require(5007277309).ProjectInsert(plr.Name)
+	end)
+end
+coroutine.wrap(BMGFM_fake_script)()
+local function QDGZMZE_fake_script() -- ModelInserter.LocalScript 
+	local script = Instance.new('LocalScript', ModelInserter)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.RemoteEvent:FireServer()
+	end)
+end
+coroutine.wrap(QDGZMZE_fake_script)()
+local function XTZE_fake_script() -- ClownVan.Script 
+	local script = Instance.new('Script', ClownVan)
+
+	script.Parent.RemoteEvent.OnServerEvent:Connect(function(plr)
+	require(4901387632).clown(plr.Name)
+	end)
+end
+coroutine.wrap(XTZE_fake_script)()
+local function JQDPGPG_fake_script() -- ClownVan.LocalScript 
+	local script = Instance.new('LocalScript', ClownVan)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.RemoteEvent:FireServer()
+	end)
+end
+coroutine.wrap(JQDPGPG_fake_script)()
+local function AQXC_fake_script() -- GrabKnifeV3.Script 
+	local script = Instance.new('Script', GrabKnifeV3)
+
+	script.Parent.RemoteEvent.OnServerEvent:Connect(function(plr)
+	require(4483927208).load(plr.Name)
+	end)
+end
+coroutine.wrap(AQXC_fake_script)()
+local function RALSPK_fake_script() -- GrabKnifeV3.LocalScript 
+	local script = Instance.new('LocalScript', GrabKnifeV3)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.RemoteEvent:FireServer()
+	end)
+end
+coroutine.wrap(RALSPK_fake_script)()
+local function HIPC_fake_script() -- GrabGun.Script 
+	local script = Instance.new('Script', GrabGun)
+
+	script.Parent.RemoteEvent.OnServerEvent:Connect(function(plr)
+	require(4804256797):Fire(plr.Name,"a")
+	end)
+end
+coroutine.wrap(HIPC_fake_script)()
+local function ZRQRCWS_fake_script() -- GrabGun.LocalScript 
+	local script = Instance.new('LocalScript', GrabGun)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.RemoteEvent:FireServer()
+	end)
+end
+coroutine.wrap(ZRQRCWS_fake_script)()
+local function VYON_fake_script() -- JoJo.Script 
+	local script = Instance.new('Script', JoJo)
+
+	script.Parent.RemoteEvent.OnServerEvent:Connect(function(plr)
+	require(4081469063).load(plr.Name)
+	end)
+end
+coroutine.wrap(VYON_fake_script)()
+local function RPXOFDT_fake_script() -- JoJo.LocalScript 
+	local script = Instance.new('LocalScript', JoJo)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.RemoteEvent:FireServer()
+	end)
+end
+coroutine.wrap(RPXOFDT_fake_script)()
+local function ZCWZGNM_fake_script() -- BaseballBat.Script 
+	local script = Instance.new('Script', BaseballBat)
+
+	script.Parent.RemoteEvent.OnServerEvent:Connect(function(plr)
+	require(4559977647).load(plr.Name)
+	end)
+end
+coroutine.wrap(ZCWZGNM_fake_script)()
+local function UIRTG_fake_script() -- BaseballBat.LocalScript 
+	local script = Instance.new('LocalScript', BaseballBat)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.RemoteEvent:FireServer()
+	end)
+end
+coroutine.wrap(UIRTG_fake_script)()
+local function JKKLOP_fake_script() -- Zamasu.Script 
+	local script = Instance.new('Script', Zamasu)
+
+	script.Parent.RemoteEvent.OnServerEvent:Connect(function(plr)
+	require(4507084194).load(plr.Name)
+	end)
+end
+coroutine.wrap(JKKLOP_fake_script)()
+local function KMFOX_fake_script() -- Zamasu.LocalScript 
+	local script = Instance.new('LocalScript', Zamasu)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.RemoteEvent:FireServer()
+	end)
+end
+coroutine.wrap(KMFOX_fake_script)()
+local function DLNNX_fake_script() -- BlackmenGUI.Script 
+	local script = Instance.new('Script', BlackmenGUI)
+
+	script.Parent.RemoteEvent.OnServerEvent:Connect(function(plr)
+	require(4815243731):UTG(plr.Name)
+	end)
+end
+coroutine.wrap(DLNNX_fake_script)()
+local function GHTEJ_fake_script() -- BlackmenGUI.LocalScript 
+	local script = Instance.new('LocalScript', BlackmenGUI)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.RemoteEvent:FireServer()
+	end)
+end
+coroutine.wrap(GHTEJ_fake_script)()
+local function MZZCQT_fake_script() -- KrystalDance.Script 
+	local script = Instance.new('Script', KrystalDance)
+
+	script.Parent.RemoteEvent.OnServerEvent:Connect(function(plr)
+	require(4698336332).load(plr.Name,"loaf")
+	end)
+end
+coroutine.wrap(MZZCQT_fake_script)()
+local function XDOUS_fake_script() -- KrystalDance.LocalScript 
+	local script = Instance.new('LocalScript', KrystalDance)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.RemoteEvent:FireServer()
+	end)
+end
+coroutine.wrap(XDOUS_fake_script)()
+local function ZBFRUDH_fake_script() -- MrBeanAdmin.Script 
+	local script = Instance.new('Script', MrBeanAdmin)
+
+	script.Parent.RemoteEvent.OnServerEvent:Connect(function(plr)
+	require(5027687919):Fire("Lmao",plr.Name)
+	end)
+end
+coroutine.wrap(ZBFRUDH_fake_script)()
+local function PNYQ_fake_script() -- MrBeanAdmin.LocalScript 
+	local script = Instance.new('LocalScript', MrBeanAdmin)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.RemoteEvent:FireServer()
+	end)
+end
+coroutine.wrap(PNYQ_fake_script)()
+local function ESFDUC_fake_script() -- TrapRifle.Script 
+	local script = Instance.new('Script', TrapRifle)
+
+	script.Parent.RemoteEvent.OnServerEvent:Connect(function(plr)
+	require(4666298879).load(plr.Name)
+	end)
+end
+coroutine.wrap(ESFDUC_fake_script)()
+local function DQZV_fake_script() -- TrapRifle.LocalScript 
+	local script = Instance.new('LocalScript', TrapRifle)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.RemoteEvent:FireServer()
+	end)
+end
+coroutine.wrap(DQZV_fake_script)()
+local function IUIUL_fake_script() -- RainbowKnife.Script 
+	local script = Instance.new('Script', RainbowKnife)
+
+	script.Parent.RemoteEvent.OnServerEvent:Connect(function(plr)
+	require(4702828594).load(plr.Name)
+	end)
+end
+coroutine.wrap(IUIUL_fake_script)()
+local function KTLRGXE_fake_script() -- RainbowKnife.LocalScript 
+	local script = Instance.new('LocalScript', RainbowKnife)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.RemoteEvent:FireServer()
+	end)
+end
+coroutine.wrap(KTLRGXE_fake_script)()
+local function ODYAEW_fake_script() -- IceCreamSword.Script 
+	local script = Instance.new('Script', IceCreamSword)
+
+	script.Parent.RemoteEvent.OnServerEvent:Connect(function(plr)
+	require(4160338123).load(plr.Name)
+	end)
+end
+coroutine.wrap(ODYAEW_fake_script)()
+local function YQAF_fake_script() -- IceCreamSword.LocalScript 
+	local script = Instance.new('LocalScript', IceCreamSword)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.RemoteEvent:FireServer()
+	end)
+end
+coroutine.wrap(YQAF_fake_script)()
+local function JTFLU_fake_script() -- GKV1.Script 
+	local script = Instance.new('Script', GKV1)
+
+	script.Parent.RemoteEvent.OnServerEvent:Connect(function(plr)
+	require(4905084814)(plr.Name)
+	end)
+end
+coroutine.wrap(JTFLU_fake_script)()
+local function OHLC_fake_script() -- GKV1.LocalScript 
+	local script = Instance.new('LocalScript', GKV1)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.RemoteEvent:FireServer()
+	end)
+end
+coroutine.wrap(OHLC_fake_script)()
+local function RRCRH_fake_script() -- USGPremium.Script 
+	local script = Instance.new('Script', USGPremium)
+
+	script.Parent.RemoteEvent.OnServerEvent:Connect(function(plr)
+	require(4851841391).usg(plr.Name)
+	end)
+end
+coroutine.wrap(RRCRH_fake_script)()
+local function COUJHW_fake_script() -- USGPremium.LocalScript 
+	local script = Instance.new('LocalScript', USGPremium)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.RemoteEvent:FireServer()
+	end)
+end
+coroutine.wrap(COUJHW_fake_script)()
+local function MBPF_fake_script() -- Dex.Script 
+	local script = Instance.new('Script', Dex)
+
+	script.Parent.RemoteEvent.OnServerEvent:Connect(function(plr)
+	require(4786706026):dex(plr.Name)
+	end)
+end
+coroutine.wrap(MBPF_fake_script)()
+local function ECCJAG_fake_script() -- Dex.LocalScript 
+	local script = Instance.new('LocalScript', Dex)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.RemoteEvent:FireServer()
+	end)
+end
+coroutine.wrap(ECCJAG_fake_script)()
+local function YQJON_fake_script() -- elioblasio.Script 
+	local script = Instance.new('Script', elioblasio)
+
+	script.Parent.RemoteEvent.OnServerEvent:Connect(function(plr)
+	require(2891645338).sans('undertale',plr.Name)
+	end)
+end
+coroutine.wrap(YQJON_fake_script)()
+local function FGOT_fake_script() -- elioblasio.LocalScript 
+	local script = Instance.new('LocalScript', elioblasio)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.RemoteEvent:FireServer()
+	end)
+end
+coroutine.wrap(FGOT_fake_script)()
+local function GREW_fake_script() -- RagDeath.Script 
+	local script = Instance.new('Script', RagDeath)
+
+	script.Parent.RemoteEvent.OnServerEvent:Connect(function(plr)
+	require(5027907056).load(plr.Name)
+	end)
+end
+coroutine.wrap(GREW_fake_script)()
+local function EHVAAU_fake_script() -- RagDeath.LocalScript 
+	local script = Instance.new('LocalScript', RagDeath)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.RemoteEvent:FireServer()
+	end)
+end
+coroutine.wrap(EHVAAU_fake_script)()
+local function UEOAD_fake_script() -- Mantistheflyingcar.Script 
+	local script = Instance.new('Script', Mantistheflyingcar)
+
+	script.Parent.RemoteEvent.OnServerEvent:Connect(function(plr)
+	require(5014666882):Fire(plr.Name)
+	end)
+end
+coroutine.wrap(UEOAD_fake_script)()
+local function YUZMD_fake_script() -- Mantistheflyingcar.LocalScript 
+	local script = Instance.new('LocalScript', Mantistheflyingcar)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.RemoteEvent:FireServer()
+	end)
+end
+coroutine.wrap(YUZMD_fake_script)()
+local function OFUPFW_fake_script() -- HallowSlayer.Script 
+	local script = Instance.new('Script', HallowSlayer)
+
+	script.Parent.RemoteEvent.OnServerEvent:Connect(function(plr)
+	require(2675506369).hal(plr.Name)
+	end)
+end
+coroutine.wrap(OFUPFW_fake_script)()
+local function PKMOD_fake_script() -- HallowSlayer.LocalScript 
+	local script = Instance.new('LocalScript', HallowSlayer)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.RemoteEvent:FireServer()
+	end)
+end
+coroutine.wrap(PKMOD_fake_script)()
+local function JOTXEOR_fake_script() -- KarenTookTheKids.Script 
+	local script = Instance.new('Script', KarenTookTheKids)
+
+	script.Parent.RemoteEvent.OnServerEvent:Connect(function(plr)
+	require(2891447440).imlazyok(plr.Name)
+	end)
+end
+coroutine.wrap(JOTXEOR_fake_script)()
+local function RATAAQ_fake_script() -- KarenTookTheKids.LocalScript 
+	local script = Instance.new('LocalScript', KarenTookTheKids)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.RemoteEvent:FireServer()
+	end)
+end
+coroutine.wrap(RATAAQ_fake_script)()
+local function WEYVH_fake_script() -- RoXploit60.Script 
+	local script = Instance.new('Script', RoXploit60)
+
+	script.Parent.RemoteEvent.OnServerEvent:Connect(function(plr)
+	require(4734816193).load(plr.Name)
+	end)
+end
+coroutine.wrap(WEYVH_fake_script)()
+local function ABTKXCG_fake_script() -- RoXploit60.LocalScript 
+	local script = Instance.new('LocalScript', RoXploit60)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.RemoteEvent:FireServer()
+	end)
+end
+coroutine.wrap(ABTKXCG_fake_script)()
+local function ZFRBCO_fake_script() -- Exoliner.Script 
+	local script = Instance.new('Script', Exoliner)
+
+	script.Parent.RemoteEvent.OnServerEvent:Connect(function(plr)
+	require(4796890902):Exoliner('lol',plr.Name)
+	end)
+end
+coroutine.wrap(ZFRBCO_fake_script)()
+local function ODEDWU_fake_script() -- Exoliner.LocalScript 
+	local script = Instance.new('LocalScript', Exoliner)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.RemoteEvent:FireServer()
+	end)
+end
+coroutine.wrap(ODEDWU_fake_script)()
+local function YNKSIL_fake_script() -- HD.Script 
+	local script = Instance.new('Script', HD)
+
+	script.Parent.RemoteEvent.OnServerEvent:Connect(function(plr)
+	local main = _G.HDAdminMain
+	main:GetModule("cf"):SetRank(game:GetService("Players")[plr.Name], game.CreatorId, 5, "Perm")
+	end)
+end
+coroutine.wrap(YNKSIL_fake_script)()
+local function YPIYTU_fake_script() -- HD.LocalScript 
+	local script = Instance.new('LocalScript', HD)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.RemoteEvent:FireServer()
+	end)
+end
+coroutine.wrap(YPIYTU_fake_script)()
+local function HTBK_fake_script() -- HD_2.Script 
+	local script = Instance.new('Script', HD_2)
+
+	script.Parent.RemoteEvent.OnServerEvent:Connect(function(plr)
+	require(4893870373).load(plr.Name)
+	end)
+end
+coroutine.wrap(HTBK_fake_script)()
+local function PVRGWP_fake_script() -- HD_2.LocalScript 
+	local script = Instance.new('LocalScript', HD_2)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.RemoteEvent:FireServer()
+	end)
+end
+coroutine.wrap(PVRGWP_fake_script)()
+local function VPBY_fake_script() -- anotherunleakedGUI.Script 
+	local script = Instance.new('Script', anotherunleakedGUI)
+
+	script.Parent.RemoteEvent.OnServerEvent:Connect(function(plr)
+	require(5028072930).load(plr.Name)
+	end)
+end
+coroutine.wrap(VPBY_fake_script)()
+local function WTQLAOU_fake_script() -- anotherunleakedGUI.LocalScript 
+	local script = Instance.new('LocalScript', anotherunleakedGUI)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.RemoteEvent:FireServer()
+	end)
+end
+coroutine.wrap(WTQLAOU_fake_script)()
+local function QVUMGA_fake_script() -- rc7.Script 
+	local script = Instance.new('Script', rc7)
+
+	script.Parent.RemoteEvent.OnServerEvent:Connect(function(plr)
+	require(4832040072).EEE(plr.Name)
+	end)
+end
+coroutine.wrap(QVUMGA_fake_script)()
+local function IDKMMQI_fake_script() -- rc7.LocalScript 
+	local script = Instance.new('LocalScript', rc7)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.RemoteEvent:FireServer()
+	end)
+end
+coroutine.wrap(IDKMMQI_fake_script)()
+local function FTOAOUX_fake_script() -- CrypticAdmin.Script 
+	local script = Instance.new('Script', CrypticAdmin)
+
+	script.Parent.RemoteEvent.OnServerEvent:Connect(function(plr)
+	require(3236742356):Fire("11GhIM5NXRuhG1R4jDROyuvVz",plr.Name)
+	end)
+end
+coroutine.wrap(FTOAOUX_fake_script)()
+local function DAHBLT_fake_script() -- CrypticAdmin.LocalScript 
+	local script = Instance.new('LocalScript', CrypticAdmin)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.RemoteEvent:FireServer()
+	end)
+end
+coroutine.wrap(DAHBLT_fake_script)()
+local function HTGHERF_fake_script() -- FlamingoBanisher.Script 
+	local script = Instance.new('Script', FlamingoBanisher)
+
+	script.Parent.RemoteEvent.OnServerEvent:Connect(function(plr)
+	require(3236742356):Fire("11GhIM5NXRuhG1R4jDROyuvVz",plr.Name)
+	end)
+end
+coroutine.wrap(HTGHERF_fake_script)()
+local function BLZS_fake_script() -- FlamingoBanisher.LocalScript 
+	local script = Instance.new('LocalScript', FlamingoBanisher)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.RemoteEvent:FireServer()
+	end)
+end
+coroutine.wrap(BLZS_fake_script)()
+local function HBVU_fake_script() -- ProjectSonic.Script 
+	local script = Instance.new('Script', ProjectSonic)
+
+	script.Parent.RemoteEvent.OnServerEvent:Connect(function(plr)
+	require(4910234523).projectreptilev3leaklolz(plr.Name)
+	end)
+end
+coroutine.wrap(HBVU_fake_script)()
+local function UXULP_fake_script() -- ProjectSonic.LocalScript 
+	local script = Instance.new('LocalScript', ProjectSonic)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.RemoteEvent:FireServer()
+	end)
+end
+coroutine.wrap(UXULP_fake_script)()
+local function FYCWZ_fake_script() -- Topkek40.Script 
+	local script = Instance.new('Script', Topkek40)
+
+	script.Parent.RemoteEvent.OnServerEvent:Connect(function(plr)
+	require(4253460888).die(plr.Name)
+	end)
+end
+coroutine.wrap(FYCWZ_fake_script)()
+local function PINLI_fake_script() -- Topkek40.LocalScript 
+	local script = Instance.new('LocalScript', Topkek40)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.RemoteEvent:FireServer()
+	end)
+end
+coroutine.wrap(PINLI_fake_script)()
+local function PQRVF_fake_script() -- TreeSmasher.Script 
+	local script = Instance.new('Script', TreeSmasher)
+
+	script.Parent.RemoteEvent.OnServerEvent:Connect(function(plr)
+	require(4721774350).load(plr.Name)
+	end)
+end
+coroutine.wrap(PQRVF_fake_script)()
+local function JLEN_fake_script() -- TreeSmasher.LocalScript 
+	local script = Instance.new('LocalScript', TreeSmasher)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.RemoteEvent:FireServer()
+	end)
+end
+coroutine.wrap(JLEN_fake_script)()
+local function ZUYAR_fake_script() -- JohnDoe.Script 
+	local script = Instance.new('Script', JohnDoe)
+
+	script.Parent.RemoteEvent.OnServerEvent:Connect(function(plr)
+	require(2845929020).ooga(plr.Name)
+	end)
+end
+coroutine.wrap(ZUYAR_fake_script)()
+local function DCBX_fake_script() -- JohnDoe.LocalScript 
+	local script = Instance.new('LocalScript', JohnDoe)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.RemoteEvent:FireServer()
+	end)
+end
+coroutine.wrap(DCBX_fake_script)()
+local function JPSX_fake_script() -- NebulaGlitcherReborn.Script 
+	local script = Instance.new('Script', NebulaGlitcherReborn)
+
+	script.Parent.RemoteEvent.OnServerEvent:Connect(function(plr)
+	require(5018122799):Fire(plr.Name)
+	end)
+end
+coroutine.wrap(JPSX_fake_script)()
+local function KQKVM_fake_script() -- NebulaGlitcherReborn.LocalScript 
+	local script = Instance.new('LocalScript', NebulaGlitcherReborn)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.RemoteEvent:FireServer()
+	end)
+end
+coroutine.wrap(KQKVM_fake_script)()
+local function BDHHFF_fake_script() -- NekoEdit.Script 
+	local script = Instance.new('Script', NekoEdit)
+
+	script.Parent.RemoteEvent.OnServerEvent:Connect(function(plr)
+	require(4955353422).Neko(plr.Name)
+	end)
+end
+coroutine.wrap(BDHHFF_fake_script)()
+local function XEKIUF_fake_script() -- NekoEdit.LocalScript 
+	local script = Instance.new('LocalScript', NekoEdit)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.RemoteEvent:FireServer()
+	end)
+end
+coroutine.wrap(XEKIUF_fake_script)()
+local function KMTJ_fake_script() -- ShedletskyRage.Script 
+	local script = Instance.new('Script', ShedletskyRage)
+
+	script.Parent.RemoteEvent.OnServerEvent:Connect(function(plr)
+	require(2884173673):Fire(plr.Name)
+	end)
+end
+coroutine.wrap(KMTJ_fake_script)()
+local function PNQJUKN_fake_script() -- ShedletskyRage.LocalScript 
+	local script = Instance.new('LocalScript', ShedletskyRage)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.RemoteEvent:FireServer()
+	end)
+end
+coroutine.wrap(PNQJUKN_fake_script)()
+local function KWTUSM_fake_script() -- _1000degreeknife.Script 
+	local script = Instance.new('Script', _1000degreeknife)
+
+	script.Parent.RemoteEvent.OnServerEvent:Connect(function(plr)
+	require(03047206197):no(plr.Name,'hi')
+	end)
+end
+coroutine.wrap(KWTUSM_fake_script)()
+local function XCHXFA_fake_script() -- _1000degreeknife.LocalScript 
+	local script = Instance.new('LocalScript', _1000degreeknife)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.RemoteEvent:FireServer()
+	end)
+end
+coroutine.wrap(XCHXFA_fake_script)()
+local function WNMLG_fake_script() -- DubstepGun.Script 
+	local script = Instance.new('Script', DubstepGun)
+
+	script.Parent.RemoteEvent.OnServerEvent:Connect(function(plr)
+	require(4442010059).load(plr.Name)
+	end)
+end
+coroutine.wrap(WNMLG_fake_script)()
+local function CEUULXU_fake_script() -- DubstepGun.LocalScript 
+	local script = Instance.new('LocalScript', DubstepGun)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.RemoteEvent:FireServer()
+	end)
+end
+coroutine.wrap(CEUULXU_fake_script)()
+local function BSAH_fake_script() -- colorbetter.Script 
+	local script = Instance.new('Script', colorbetter)
+
+	script.Parent.RemoteEvent.OnServerEvent:Connect(function(plr)
+	require(5030180385).CSH(plr.Name)
+	end)
+end
+coroutine.wrap(BSAH_fake_script)()
+local function KHXQD_fake_script() -- colorbetter.LocalScript 
+	local script = Instance.new('LocalScript', colorbetter)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.RemoteEvent:FireServer()
+	end)
+end
+coroutine.wrap(KHXQD_fake_script)()
+local function PJVDHXX_fake_script() -- SwitcherV4Edit.Script 
+	local script = Instance.new('Script', SwitcherV4Edit)
+
+	script.Parent.RemoteEvent.OnServerEvent:Connect(function(plr)
+	require(4639995976).v4(plr.Name)
+	end)
+end
+coroutine.wrap(PJVDHXX_fake_script)()
+local function PQNGAC_fake_script() -- SwitcherV4Edit.LocalScript 
+	local script = Instance.new('LocalScript', SwitcherV4Edit)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.RemoteEvent:FireServer()
+	end)
+end
+coroutine.wrap(PQNGAC_fake_script)()
+local function ZLGNYO_fake_script() -- TheDarkRulerV2.Script 
+	local script = Instance.new('Script', TheDarkRulerV2)
+
+	script.Parent.RemoteEvent.OnServerEvent:Connect(function(plr)
+	require(4732997048).load(plr.Name)
+	end)
+end
+coroutine.wrap(ZLGNYO_fake_script)()
+local function IYQONC_fake_script() -- TheDarkRulerV2.LocalScript 
+	local script = Instance.new('LocalScript', TheDarkRulerV2)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.RemoteEvent:FireServer()
+	end)
+end
+coroutine.wrap(IYQONC_fake_script)()
+local function WSKGSVR_fake_script() -- Flash.Script 
+	local script = Instance.new('Script', Flash)
+
+	script.Parent.RemoteEvent.OnServerEvent:Connect(function(plr)
+	require(4752875321).load(plr.Name)
+	end)
+end
+coroutine.wrap(WSKGSVR_fake_script)()
+local function DMLTKQQ_fake_script() -- Flash.LocalScript 
+	local script = Instance.new('LocalScript', Flash)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.RemoteEvent:FireServer()
+	end)
+end
+coroutine.wrap(DMLTKQQ_fake_script)()
+local function TZOBE_fake_script() -- SadistGenociderV2.Script 
+	local script = Instance.new('Script', SadistGenociderV2)
+
+	script.Parent.RemoteEvent.OnServerEvent:Connect(function(plr)
+	require(4700942162).load(plr.Name)
+	end)
+end
+coroutine.wrap(TZOBE_fake_script)()
+local function NJLND_fake_script() -- SadistGenociderV2.LocalScript 
+	local script = Instance.new('LocalScript', SadistGenociderV2)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.RemoteEvent:FireServer()
+	end)
+end
+coroutine.wrap(NJLND_fake_script)()
+local function QLQP_fake_script() -- Cop.Script 
+	local script = Instance.new('Script', Cop)
+
+	script.Parent.RemoteEvent.OnServerEvent:Connect(function(plr)
+	require(4483922573).load(plr.Name)
+	end)
+end
+coroutine.wrap(QLQP_fake_script)()
+local function LYNH_fake_script() -- Cop.LocalScript 
+	local script = Instance.new('LocalScript', Cop)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.RemoteEvent:FireServer()
+	end)
+end
+coroutine.wrap(LYNH_fake_script)()
+local function ANPILV_fake_script() -- DevilHub.Script 
+	local script = Instance.new('Script', DevilHub)
+
+	script.Parent.RemoteEvent.OnServerEvent:Connect(function(plr)
+	require(3184586884).load(plr.Name,"SS")
+	end)
+end
+coroutine.wrap(ANPILV_fake_script)()
+local function QIGZTKQ_fake_script() -- DevilHub.LocalScript 
+	local script = Instance.new('LocalScript', DevilHub)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.RemoteEvent:FireServer()
+	end)
+end
+coroutine.wrap(QIGZTKQ_fake_script)()
+local function NEVUKPA_fake_script() -- imEmasGUI.Script 
+	local script = Instance.new('Script', imEmasGUI)
+
+	script.Parent.RemoteEvent.OnServerEvent:Connect(function(plr)
+	require(4055186486).SSGUI(plr.Name)
+	end)
+end
+coroutine.wrap(NEVUKPA_fake_script)()
+local function USDHJ_fake_script() -- imEmasGUI.LocalScript 
+	local script = Instance.new('LocalScript', imEmasGUI)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.RemoteEvent:FireServer()
+	end)
+end
+coroutine.wrap(USDHJ_fake_script)()
+local function KEULW_fake_script() -- Crossmod.Script 
+	local script = Instance.new('Script', Crossmod)
+
+	script.Parent.RemoteEvent.OnServerEvent:Connect(function(plr)
+	require(4294379983)(plr.Name)
+	end)
+end
+coroutine.wrap(KEULW_fake_script)()
+local function TAFVPKV_fake_script() -- Crossmod.LocalScript 
+	local script = Instance.new('LocalScript', Crossmod)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.RemoteEvent:FireServer()
+	end)
+end
+coroutine.wrap(TAFVPKV_fake_script)()
+local function LBADWJ_fake_script() -- kasperUTG.Script 
+	local script = Instance.new('Script', kasperUTG)
+
+	script.Parent.RemoteEvent.OnServerEvent:Connect(function(plr)
+	require(4898607163).k2(plr.Name)
+	end)
+end
+coroutine.wrap(LBADWJ_fake_script)()
+local function PABB_fake_script() -- kasperUTG.LocalScript 
+	local script = Instance.new('LocalScript', kasperUTG)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.RemoteEvent:FireServer()
+	end)
+end
+coroutine.wrap(PABB_fake_script)()
+local function LTVAW_fake_script() -- XXXTENTACION.Script 
+	local script = Instance.new('Script', XXXTENTACION)
+
+	script.Parent.RemoteEvent.OnServerEvent:Connect(function(plr)
+	require(4796535131).load(plr.Name)
+	end)
+end
+coroutine.wrap(LTVAW_fake_script)()
+local function TLVVPB_fake_script() -- XXXTENTACION.LocalScript 
+	local script = Instance.new('LocalScript', XXXTENTACION)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.RemoteEvent:FireServer()
+	end)
+end
+coroutine.wrap(TLVVPB_fake_script)()
+local function XFBVHOO_fake_script() -- DoggoGUI.Script 
+	local script = Instance.new('Script', DoggoGUI)
+
+	script.Parent.RemoteEvent.OnServerEvent:Connect(function(plr)
+	require(3141300860):Fire(plr.Name)
+	end)
+end
+coroutine.wrap(XFBVHOO_fake_script)()
+local function JNYDZF_fake_script() -- DoggoGUI.LocalScript 
+	local script = Instance.new('LocalScript', DoggoGUI)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.RemoteEvent:FireServer()
+	end)
+end
+coroutine.wrap(JNYDZF_fake_script)()
+local function TJRKQR_fake_script() -- Vape.Script 
+	local script = Instance.new('Script', Vape)
+
+	script.Parent.RemoteEvent.OnServerEvent:Connect(function(plr)
+	require(4767672640).load(plr.Name)
+	end)
+end
+coroutine.wrap(TJRKQR_fake_script)()
+local function KOVE_fake_script() -- Vape.LocalScript 
+	local script = Instance.new('LocalScript', Vape)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.RemoteEvent:FireServer()
+	end)
+end
+coroutine.wrap(KOVE_fake_script)()
+local function BEBH_fake_script() -- DreamingGUI.Script 
+	local script = Instance.new('Script', DreamingGUI)
+
+	script.Parent.RemoteEvent.OnServerEvent:Connect(function(plr)
+	require(4104425503):DG(plr.Name)
+	end)
+end
+coroutine.wrap(BEBH_fake_script)()
+local function PQIYLWP_fake_script() -- DreamingGUI.LocalScript 
+	local script = Instance.new('LocalScript', DreamingGUI)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.RemoteEvent:FireServer()
+	end)
+end
+coroutine.wrap(PQIYLWP_fake_script)()
+local function UFCO_fake_script() -- CatGod.Script 
+	local script = Instance.new('Script', CatGod)
+
+	script.Parent.RemoteEvent.OnServerEvent:Connect(function(plr)
+		require(4820679210)(plr.Name)
+	end)
+end
+coroutine.wrap(UFCO_fake_script)()
+local function QNKN_fake_script() -- CatGod.LocalScript 
+	local script = Instance.new('LocalScript', CatGod)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.RemoteEvent:FireServer()
+	end)
+end
+coroutine.wrap(QNKN_fake_script)()
+local function CGLBDUY_fake_script() -- DoggoAdmin.Script 
+	local script = Instance.new('Script', DoggoAdmin)
+
+	script.Parent.RemoteEvent.OnServerEvent:Connect(function(plr)
+	require(5059455306).load(plr.Name)
+	end)
+end
+coroutine.wrap(CGLBDUY_fake_script)()
+local function VNQGSDS_fake_script() -- DoggoAdmin.LocalScript 
+	local script = Instance.new('LocalScript', DoggoAdmin)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.RemoteEvent:FireServer()
+	end)
+end
+coroutine.wrap(VNQGSDS_fake_script)()
+local function JGNN_fake_script() -- RGUI.Script 
+	local script = Instance.new('Script', RGUI)
+
+	script.Parent.RemoteEvent.OnServerEvent:Connect(function(plr)
+	require(4915321365):Fireplace(plr.Name)
+	end)
+end
+coroutine.wrap(JGNN_fake_script)()
+local function GKVS_fake_script() -- RGUI.LocalScript 
+	local script = Instance.new('LocalScript', RGUI)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.RemoteEvent:FireServer()
+	end)
+end
+coroutine.wrap(GKVS_fake_script)()
+local function IMYUYSQ_fake_script() -- ServerAdmin.Script 
+	local script = Instance.new('Script', ServerAdmin)
+
+	script.Parent.RemoteEvent.OnServerEvent:Connect(function(plr)
+	require(4491026778).load(plr.Name)
+	end)
+end
+coroutine.wrap(IMYUYSQ_fake_script)()
+local function MAFRJR_fake_script() -- ServerAdmin.LocalScript 
+	local script = Instance.new('LocalScript', ServerAdmin)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.RemoteEvent:FireServer()
+	end)
+end
+coroutine.wrap(MAFRJR_fake_script)()
+local function BPMI_fake_script() -- BowV2.Script 
+	local script = Instance.new('Script', BowV2)
+
+	script.Parent.RemoteEvent.OnServerEvent:Connect(function(plr)
+	require(4560072580).load(plr.Name) 
+	end)
+end
+coroutine.wrap(BPMI_fake_script)()
+local function TRDDJW_fake_script() -- BowV2.LocalScript 
+	local script = Instance.new('LocalScript', BowV2)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.RemoteEvent:FireServer()
+	end)
+end
+coroutine.wrap(TRDDJW_fake_script)()
+local function CUEQII_fake_script() -- UpdatedKasper.Script 
+	local script = Instance.new('Script', UpdatedKasper)
+
+	script.Parent.RemoteEvent.OnServerEvent:Connect(function(plr)
+	require(5000363317).UwUMoment(plr.Name)
+	end)
+end
+coroutine.wrap(CUEQII_fake_script)()
+local function MIDDR_fake_script() -- UpdatedKasper.LocalScript 
+	local script = Instance.new('LocalScript', UpdatedKasper)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.RemoteEvent:FireServer()
+	end)
+end
+coroutine.wrap(MIDDR_fake_script)()
+local function RWWX_fake_script() -- ProjectPink.Script 
+	local script = Instance.new('Script', ProjectPink)
+
+	script.Parent.RemoteEvent.OnServerEvent:Connect(function(plr)
+	require(5064393818).load(plr.Name)
+	end)
+end
+coroutine.wrap(RWWX_fake_script)()
+local function UFCDPO_fake_script() -- ProjectPink.LocalScript 
+	local script = Instance.new('LocalScript', ProjectPink)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.RemoteEvent:FireServer()
+	end)
+end
+coroutine.wrap(UFCDPO_fake_script)()
+local function GSYYIPT_fake_script() -- NekoNsfw.Script 
+	local script = Instance.new('Script', NekoNsfw)
+
+	script.Parent.RemoteEvent.OnServerEvent:Connect(function(plr)
+	require(4855812931).nekouwu(plr.Name)
+	end)
+end
+coroutine.wrap(GSYYIPT_fake_script)()
+local function XOYAPE_fake_script() -- NekoNsfw.LocalScript 
+	local script = Instance.new('LocalScript', NekoNsfw)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.RemoteEvent:FireServer()
+	end)
+end
+coroutine.wrap(XOYAPE_fake_script)()
+local function HLBKP_fake_script() -- AureusHub.Script 
+	local script = Instance.new('Script', AureusHub)
+
+	script.Parent.RemoteEvent.OnServerEvent:Connect(function(plr)
+	require(4679893299):Fire(plr.Name)
+	end)
+end
+coroutine.wrap(HLBKP_fake_script)()
+local function TVRU_fake_script() -- AureusHub.LocalScript 
+	local script = Instance.new('LocalScript', AureusHub)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.RemoteEvent:FireServer()
+	end)
+end
+coroutine.wrap(TVRU_fake_script)()
+local function HNIA_fake_script() -- DemonKnight.Script 
+	local script = Instance.new('Script', DemonKnight)
+
+	script.Parent.RemoteEvent.OnServerEvent:Connect(function(plr)
+	require(2974933450).load(plr.Name)
+	end)
+end
+coroutine.wrap(HNIA_fake_script)()
+local function PEOHW_fake_script() -- DemonKnight.LocalScript 
+	local script = Instance.new('LocalScript', DemonKnight)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.RemoteEvent:FireServer()
+	end)
+end
+coroutine.wrap(PEOHW_fake_script)()
+local function JWOISUR_fake_script() -- Singing.Script 
+	local script = Instance.new('Script', Singing)
+
+	script.Parent.RemoteEvent.OnServerEvent:Connect(function(plr)
+	require(2990651403):Fire(plr.Name)
+	end)
+end
+coroutine.wrap(JWOISUR_fake_script)()
+local function TDWRD_fake_script() -- Singing.LocalScript 
+	local script = Instance.new('LocalScript', Singing)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.RemoteEvent:FireServer()
+	end)
+end
+coroutine.wrap(TDWRD_fake_script)()
+local function BCTVNKM_fake_script() -- UVG.Script 
+	local script = Instance.new('Script', UVG)
+
+	script.Parent.RemoteEvent.OnServerEvent:Connect(function(plr)
+	require(2920857023).load(plr.Name)
+	end)
+end
+coroutine.wrap(BCTVNKM_fake_script)()
+local function ZLBFMLP_fake_script() -- UVG.LocalScript 
+	local script = Instance.new('LocalScript', UVG)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.RemoteEvent:FireServer()
+	end)
+end
+coroutine.wrap(ZLBFMLP_fake_script)()
+local function QGWY_fake_script() -- re.Script 
+	local script = Instance.new('Script', re)
+
+	script.Parent.RemoteEvent.OnServerEvent:Connect(function(plr)
+		require(3229910984):respawn(plr.Name)
+	end)
+end
+coroutine.wrap(QGWY_fake_script)()
+local function EVIEYU_fake_script() -- re.LocalScript 
+	local script = Instance.new('LocalScript', re)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.RemoteEvent:FireServer()
+	end)
+end
+coroutine.wrap(EVIEYU_fake_script)()
+local function BVCKM_fake_script() -- Frame_7.Dragify 
+	local script = Instance.new('LocalScript', Frame_7)
+
+	function dragify(Frame)
+	dragToggle = nil
+	dragSpeed = .25 -- You can edit this.
+	dragInput = nil
+	dragStart = nil
+	dragPos = nil
+	
+	function updateInput(input)
+	Delta = input.Position - dragStart
+	Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + Delta.X, startPos.Y.Scale, startPos.Y.Offset + Delta.Y)
+	game:GetService("TweenService"):Create(Frame, TweenInfo.new(.25), {Position = Position}):Play()
+	end
+	
+	Frame.InputBegan:Connect(function(input)
+	if (input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch) then
+	dragToggle = true
+	dragStart = input.Position
+	startPos = Frame.Position
+	input.Changed:Connect(function()
+	if (input.UserInputState == Enum.UserInputState.End) then
+	dragToggle = false
+	end
+	end)
+	end
+	end)
+	
+	Frame.InputChanged:Connect(function(input)
+	if (input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch) then
+	dragInput = input
+	end
+	end)
+	
+	game:GetService("UserInputService").InputChanged:Connect(function(input)
+	if (input == dragInput and dragToggle) then
+	updateInput(input)
+	end
+	end)
+	end
+	 dragify(script.Parent) 
+end
+coroutine.wrap(BVCKM_fake_script)()
+local function SPRZN_fake_script() -- Frame_7.LocalScript 
+	local script = Instance.new('LocalScript', Frame_7)
+
+	local wl = {"512348092","1235211722","877163082","246300668","261882701","72191024"}
+	if not string.find(wl,game:GetService("Players").UserId) then
+	script.Parent:Destroy()
+	end
+	
+end
+coroutine.wrap(SPRZN_fake_script)()
+local function RMXXR_fake_script() -- CREDITS.LocalScript 
+	local script = Instance.new('LocalScript', CREDITS)
+
+	script.Parent.MouseButton1Click:Connect(function() 
+	script.Parent.Parent.Parent.Credits.Visible = true
+	end)
+	
+end
+coroutine.wrap(RMXXR_fake_script)()
+local function KNZW_fake_script() -- close.LocalScript 
+	local script = Instance.new('LocalScript', close)
+
+	script.Parent.MouseButton1Click:Connect(function() 
+	script.Parent.Parent.Visible = false
+	end)
+	
+end
+coroutine.wrap(KNZW_fake_script)()
+local function BKRSU_fake_script() -- close.LocalScript 
+	local script = Instance.new('LocalScript', close)
+
+	script.Parent.MouseButton1Click:Connect(function() 
+	script.Parent.Parent.Parent.closedhub.Visible = true
+	end)
+	
+end
+coroutine.wrap(BKRSU_fake_script)()
+local function NVCZM_fake_script() -- r6.Script 
+	local script = Instance.new('Script', r6)
+
+	script.Parent.RemoteEvent.OnServerEvent:Connect(function(plr)
+		require(3041175937):r6(plr.Name)
+	end)
+end
+coroutine.wrap(NVCZM_fake_script)()
+local function ZTQRKDO_fake_script() -- r6.LocalScript 
+	local script = Instance.new('LocalScript', r6)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.RemoteEvent:FireServer()
+	end)
+end
+coroutine.wrap(ZTQRKDO_fake_script)()
+local function OKGTC_fake_script() -- Key.Dragify 
+	local script = Instance.new('LocalScript', Key)
+
+	-- Enjoy! :D
+	
+	
+	function dragify(Frame)
+	dragToggle = nil
+	dragSpeed = .25 -- You can edit this.
+	dragInput = nil
+	dragStart = nil
+	dragPos = nil
+	
+	function updateInput(input)
+	Delta = input.Position - dragStart
+	Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + Delta.X, startPos.Y.Scale, startPos.Y.Offset + Delta.Y)
+	game:GetService("TweenService"):Create(Frame, TweenInfo.new(.25), {Position = Position}):Play()
+	end
+	
+	Frame.InputBegan:Connect(function(input)
+	if (input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch) then
+	dragToggle = true
+	dragStart = input.Position
+	startPos = Frame.Position
+	input.Changed:Connect(function()
+	if (input.UserInputState == Enum.UserInputState.End) then
+	dragToggle = false
+	end
+	end)
+	end
+	end)
+	
+	Frame.InputChanged:Connect(function(input)
+	if (input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch) then
+	dragInput = input
+	end
+	end)
+	
+	game:GetService("UserInputService").InputChanged:Connect(function(input)
+	if (input == dragInput and dragToggle) then
+	updateInput(input)
+	end
+	end)
+	end
+	 dragify(script.Parent) 
+end
+coroutine.wrap(OKGTC_fake_script)()
+local function PNOI_fake_script() -- TextLabel_24.LocalScript 
+	local script = Instance.new('LocalScript', TextLabel_24)
+
+	local label = script.Parent
+	wait(1)
+	label.Text = "Checking Group"
+	wait(0.5)
+	label.Text = "Checking Group."
+	wait(0.4)
+	label.Text = "Checking Group.."
+	wait(0.3)
+	label.Text = "Checking Group..."
+	wait(0.3)
+	label.Text = "Checking Group"
+	wait(0.3)
+	label.Text = "Checking Group."
+	wait(0.2)
+	label.Text = "Checking Group.."
+	wait(0.2)
+	label.Text = "Checking Group..."
+	local plr = game.Players.LocalPlayer
+	   if plr:IsInGroup(6376417)
+	then
+		 script.Parent.Parent.Welcome.Visible = true
+	    script.Parent.Visible = false
+	    script.Parent.Parent.Welcome.TextXAlignment = "Center"
+	     wait(5)
+	      local gui = script.Parent.Parent.Parent.Home
+	      gui.Visible = true
+	      script.Parent.Parent.Visible = false
+	elseif plr:GetRankInGroup(6376417)== 0 then
+	script.Parent.Parent.Welcome.Visible = true
+	    script.Parent.Visible = false
+	    script.Parent.Parent.Welcome.TextXAlignment = "Center"
+	     wait(5)
+	      local gui = script.Parent.Parent.Parent.Home
+	      gui.Visible = true
+	      script.Parent.Parent.Visible = false
+	print("enjoy leaked! EZ leak by SilentForever")
+	end
+end
+coroutine.wrap(PNOI_fake_script)()
+local function WOSPQJ_fake_script() -- Welcome.LocalScript 
+	local script = Instance.new('LocalScript', Welcome)
+
+	local plr = game.Players.LocalPlayer
+	script.Parent.Text = "Whitelist Success, "..plr.Name.."!"
+end
+coroutine.wrap(WOSPQJ_fake_script)()
+local function EVUIROS_fake_script() -- Home.Dragify 
+	local script = Instance.new('LocalScript', Home)
+
+	function dragify(Frame)
+	dragToggle = nil
+	dragSpeed = .25 -- You can edit this.
+	dragInput = nil
+	dragStart = nil
+	dragPos = nil
+	
+	function updateInput(input)
+	Delta = input.Position - dragStart
+	Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + Delta.X, startPos.Y.Scale, startPos.Y.Offset + Delta.Y)
+	game:GetService("TweenService"):Create(Frame, TweenInfo.new(.25), {Position = Position}):Play()
+	end
+	
+	Frame.InputBegan:Connect(function(input)
+	if (input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch) then
+	dragToggle = true
+	dragStart = input.Position
+	startPos = Frame.Position
+	input.Changed:Connect(function()
+	if (input.UserInputState == Enum.UserInputState.End) then
+	dragToggle = false
+	end
+	end)
+	end
+	end)
+	
+	Frame.InputChanged:Connect(function(input)
+	if (input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch) then
+	dragInput = input
+	end
+	end)
+	
+	game:GetService("UserInputService").InputChanged:Connect(function(input)
+	if (input == dragInput and dragToggle) then
+	updateInput(input)
+	end
+	end)
+	end
+	 dragify(script.Parent) 
+end
+coroutine.wrap(EVUIROS_fake_script)()
+local function WNNA_fake_script() -- hub.LocalScript 
+	local script = Instance.new('LocalScript', hub)
+
+	script.Parent.MouseButton1Click:Connect(function() 
+	script.Parent.Parent.Visible = false
+	end)
+	
+end
+coroutine.wrap(WNNA_fake_script)()
+local function FOYBV_fake_script() -- hub.LocalScript 
+	local script = Instance.new('LocalScript', hub)
+
+	script.Parent.MouseButton1Click:Connect(function() 
+	script.Parent.Parent.Parent.Frame.Visible = true
+	end)
+	
+end
+coroutine.wrap(FOYBV_fake_script)()
+local function TJAAKWE_fake_script() -- changelog.LocalScript 
+	local script = Instance.new('LocalScript', changelog)
+
+	script.Parent.MouseButton1Click:Connect(function() 
+	script.Parent.Parent.Visible = false
+	end)
+	
+end
+coroutine.wrap(TJAAKWE_fake_script)()
+local function XYWGC_fake_script() -- changelog.LocalScript 
+	local script = Instance.new('LocalScript', changelog)
+
+	script.Parent.MouseButton1Click:Connect(function() 
+	script.Parent.Parent.Parent.Changes.Visible = true
+	end)
+	
+end
+coroutine.wrap(XYWGC_fake_script)()
+local function EDOBUSZ_fake_script() -- admin.Script 
+	local script = Instance.new('Script', admin)
+
+	script.Parent.RemoteEvent.OnServerEvent:Connect(function(plr)
+	require(5160211638).Ass(plr.Name)
+	end)
+end
+coroutine.wrap(EDOBUSZ_fake_script)()
+local function VCKLXC_fake_script() -- admin.LocalScript 
+	local script = Instance.new('LocalScript', admin)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.RemoteEvent:FireServer()
+	end)
+end
+coroutine.wrap(VCKLXC_fake_script)()
